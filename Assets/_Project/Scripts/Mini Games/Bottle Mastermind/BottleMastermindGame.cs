@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class BottleMastermindGame : MiniGame
 {
@@ -9,6 +10,9 @@ public class BottleMastermindGame : MiniGame
 
     [Tooltip("Event invoked when the player makes a wrong guess. The parameter is the number of correct digits in the guess.")]
     public UnityEvent<int> OnGuessWrong = new();
+
+    [SerializeField]
+    private XRSocketInteractor[] _bottleInteractors = new XRSocketInteractor[0];
 
     private void Awake()
     {
@@ -23,11 +27,25 @@ public class BottleMastermindGame : MiniGame
         {
             _guessCode[i] = -1;
         }
+
+        for (int i = 0; i < NUMBER_OF_BOTTLES; i++)
+        {
+            _bottleInteractors[i].selectEntered.AddListener(args => SetCodeDigit(i, args));
+            _bottleInteractors[i].selectExited.AddListener(args => SetCodeDigit(i, null));
+        }
     }
 
-    public void SetCodeDigit(int index, int value)
+    private void SetCodeDigit(int index, SelectEnterEventArgs args)
     {
-        _guessCode[index] = value;
+        if (args?.interactableObject.transform.TryGetComponent(out Bottle bottle) is true)
+        {
+            _guessCode[index] = bottle.Digit;
+        }
+        else
+        {
+            _guessCode[index] = -1;
+        }
+
         CheckGuess();
     }
 
@@ -49,6 +67,14 @@ public class BottleMastermindGame : MiniGame
         else
         {
             OnGuessWrong.Invoke(correctDigits);
+        }
+    }
+
+    private void OnValidate()
+    {
+        if (_bottleInteractors.Length != NUMBER_OF_BOTTLES)
+        {
+            Debug.LogError("The number of bottle interactors must be equal to " + NUMBER_OF_BOTTLES);
         }
     }
 }
