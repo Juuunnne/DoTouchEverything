@@ -1109,6 +1109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1796086845}
+  - component: {fileID: 1796086846}
   m_Layer: 0
   m_Name: Mini games
   m_TagString: Untagged
@@ -1134,6 +1135,23 @@ Transform:
   - {fileID: 326239760}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1796086846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796086844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d842a7bd634b19d4ea5ce8c45f922ced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _miniGames:
+  - {fileID: 1848563018}
+  OnAllGamesWon:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1848563016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,6 +1202,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6aca91df3fb39846a8ca1f1955986af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnGameWon:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGuessWrong:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1895087782
 GameObject:
   m_ObjectHideFlags: 0
