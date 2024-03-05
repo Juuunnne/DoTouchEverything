@@ -4,7 +4,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class BottleMastermindGame : MiniGame
 {
-    private const byte NUMBER_OF_BOTTLES = 5;
+    private const byte NUMBER_OF_BOTTLES = 4;
     private readonly int[] _secretCode = new int[NUMBER_OF_BOTTLES];
     private readonly int[] _guessCode = new int[NUMBER_OF_BOTTLES];
 
@@ -16,19 +16,19 @@ public class BottleMastermindGame : MiniGame
 
     private void Awake()
     {
-        for (int i = 0; i < NUMBER_OF_BOTTLES; i++)
+        for (int i = 0; i < NUMBER_OF_BOTTLES - 1; i++)
         {
             _secretCode[i] = i;
         }
         _secretCode.Shuffle();
         Debug.Log("Secret code: " + string.Join(", ", _secretCode));
 
-        for (int i = 0; i < NUMBER_OF_BOTTLES; i++)
+        for (int i = 0; i < NUMBER_OF_BOTTLES - 1; i++)
         {
             _guessCode[i] = -1;
         }
 
-        for (int i = 0; i < NUMBER_OF_BOTTLES; i++)
+        for (int i = 0; i < NUMBER_OF_BOTTLES - 1; i++)
         {
             _bottleInteractors[i].selectEntered.AddListener(args => SetCodeDigit(i, args));
             _bottleInteractors[i].selectExited.AddListener(args => SetCodeDigit(i, null));
@@ -52,7 +52,7 @@ public class BottleMastermindGame : MiniGame
     private void CheckGuess()
     {
         int correctDigits = 0;
-        for (int i = 0; i < NUMBER_OF_BOTTLES; i++)
+        for (int i = 0; i < NUMBER_OF_BOTTLES - 1; i++)
         {
             if (_secretCode[i] == _guessCode[i])
             {
