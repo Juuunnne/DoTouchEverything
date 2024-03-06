@@ -16,28 +16,20 @@ public class BottleMastermindGame : MiniGame
 
     private void Awake()
     {
-        for (int i = 0; i < NUMBER_OF_BOTTLES - 1; i++)
+        for (int i = 0; i < NUMBER_OF_BOTTLES; i++)
         {
             _secretCode[i] = i;
-        }
-        _secretCode.Shuffle();
-        Debug.Log("Secret code: " + string.Join(", ", _secretCode));
-
-        for (int i = 0; i < NUMBER_OF_BOTTLES - 1; i++)
-        {
             _guessCode[i] = -1;
+            int index = i;
+            _bottleInteractors[i].selectEntered.AddListener(args => { OnObjectEnterSocket(index, args.interactableObject); });
+            _bottleInteractors[i].selectExited.AddListener(args => { OnObjectLeaveSocket(index); });
         }
-
-        for (int i = 0; i < NUMBER_OF_BOTTLES - 1; i++)
-        {
-            _bottleInteractors[i].selectEntered.AddListener(args => SetCodeDigit(i, args));
-            _bottleInteractors[i].selectExited.AddListener(args => SetCodeDigit(i, null));
-        }
+        Debug.Log("Secret code: " + string.Join(", ", _secretCode));
     }
 
-    private void SetCodeDigit(int index, SelectEnterEventArgs args)
+    private void OnObjectEnterSocket(int index, IXRSelectInteractable interactableObject)
     {
-        if (args?.interactableObject.transform.TryGetComponent(out Bottle bottle) is true)
+        if (interactableObject.transform.TryGetComponent(out Bottle bottle))
         {
             _guessCode[index] = bottle.Digit;
         }
@@ -49,10 +41,15 @@ public class BottleMastermindGame : MiniGame
         CheckGuess();
     }
 
+    private void OnObjectLeaveSocket(int index)
+    {
+        _guessCode[index] = -1;
+    }
+
     private void CheckGuess()
     {
         int correctDigits = 0;
-        for (int i = 0; i < NUMBER_OF_BOTTLES - 1; i++)
+        for (int i = 0; i < NUMBER_OF_BOTTLES; i++)
         {
             if (_secretCode[i] == _guessCode[i])
             {
