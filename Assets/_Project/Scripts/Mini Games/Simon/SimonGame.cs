@@ -11,6 +11,9 @@ public class SimonGame : MonoBehaviour
     [SerializeField] private Button[] _simonButtons;
     
     private ButtonType[] _sequence;
+    private ButtonType[] _currentsequence;
+    private int _currentsequenceIndex = 0;
+
     private void Start()
     {
         foreach (Button button in _simonButtons)
@@ -34,14 +37,14 @@ public class SimonGame : MonoBehaviour
     {
         Debug.Log("Button pressed: " + buttonType);
 
-        if (buttonType == _sequence[0])
+        if (buttonType == _currentsequence[0])
         {
             ButtonType[] newSequence = new ButtonType[_sequence.Length - 1];
             for (int i = 0; i < newSequence.Length; i++)
             {
                 newSequence[i] = _sequence[i + 1];
             }
-            _sequence = newSequence;
+            _currentsequence = newSequence;
             if (_sequence.Length == 0)
             {
                 Debug.Log("Sequence completed");
@@ -64,16 +67,18 @@ public class SimonGame : MonoBehaviour
         {
             _sequence[i] = (ButtonType)Random.Range(0, 5); //5 exclusive
         }
+        _currentsequence = _sequence;
     }
     
     private IEnumerator PlaySequence()
     {
-        foreach (ButtonType buttonType in _sequence)
+        _currentsequenceIndex++;
+        for (int i = 0; i < _currentsequenceIndex; i++)
         {
-            Debug.Log("Button: " + buttonType);
-            _simonButtons[(int)buttonType].HighlightButton(true);
+            Debug.Log("Button: " + _sequence[_currentsequenceIndex]);
+            _simonButtons[(int)_sequence[_currentsequenceIndex]].HighlightButton(true);
             yield return new WaitForSeconds(SequenceDelay);
-            _simonButtons[(int)buttonType].HighlightButton(false);
+            _simonButtons[(int)_sequence[_currentsequenceIndex]].HighlightButton(false);
             yield return new WaitForSeconds(SequenceDelay);
         }
     }
