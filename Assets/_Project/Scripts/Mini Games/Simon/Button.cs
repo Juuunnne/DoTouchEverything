@@ -24,7 +24,7 @@ public class Button : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.CompareTag("Hand"))
+        if (other.gameObject)
         {
             OnButtonPressed?.Invoke(buttonType);
             StartCoroutine(HighlightOnPressed());
