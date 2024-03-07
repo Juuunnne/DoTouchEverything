@@ -14,13 +14,12 @@ public enum ButtonType : int
 
 public class Button : MonoBehaviour
 {
-
-    public Action<ButtonType> OnButtonPressed;
+    [SerializeField] private Material _highlightMaterial;
     
     [Header("Button Type")]
     public ButtonType buttonType;
     
-    [SerializeField] private Material _highlightMaterial;
+    public Action<ButtonType> OnButtonPressed;
 
     private void OnCollisionEnter(Collision other)
     {
