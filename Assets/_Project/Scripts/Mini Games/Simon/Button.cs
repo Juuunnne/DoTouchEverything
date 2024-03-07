@@ -24,8 +24,9 @@ public class Button : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject)
+        if (other.gameObject.CompareTag("Player"))
         {
+            Debug.Log("Player Controller Detected: " + other);
             OnButtonPressed?.Invoke(buttonType);
             StartCoroutine(HighlightOnPressed());
         }
