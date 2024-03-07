@@ -7,15 +7,16 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_New Shader Graph
-  m_Shader: {fileID: -6465566751694194690, guid: f41ecd6af90db2b41a405533ff4280cf, type: 3}
+  m_Name: Type A
+  m_Shader: {fileID: -6465566751694194690, guid: 485e349b0142f484482987f263e70c3e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - ENUM_1BB38181_A
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -23,6 +24,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_AEF0FC1D:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -37,11 +42,22 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - ENUM_1BB38181: 0
+    - Vector1_13E478A0: 28
+    - Vector1_469FF4D: 1.93
+    - Vector1_5DDB167B: 0.2
+    - Vector1_964BC046: 9.68
+    - Vector1_97436D56: -4
+    - Vector1_AEAD50FF: 1
+    - Vector1_DBF011C: 3.08
+    - Vector1_DE6ED6BB: 0
+    - Vector1_FBBAF542: 0.82
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    m_Colors:
+    - Color_739931D1: {r: 0, g: 0.03994465, b: 1, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &8908949055433495747
+--- !u!114 &4769163850339374816
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
