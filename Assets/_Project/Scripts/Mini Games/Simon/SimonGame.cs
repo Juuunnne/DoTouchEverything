@@ -4,15 +4,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class SimonGame : MonoBehaviour
+public class SimonGame : MiniGame
 {
+    [SerializeField] private Button[] _simonButtons;
+    
+    public int SequenceIndex
+    {
+        get => _sequenceIndex;
+        set => _sequenceIndex = value > _sequence.Length ? _sequence.Length : value;
+    }
     public int SequenceLength = 10;
     public float SequenceDelay = 1.0f;
-    [SerializeField] private Button[] _simonButtons;
     
     private ButtonType[] _sequence;
     private ButtonType[] _currentSequence;
+    private int _sequenceIndex = 0;
     private int _currentSequenceIndex = 0;
+    private bool _canPlay = false;
 
     private void Start()
     {
@@ -21,7 +29,7 @@ public class SimonGame : MonoBehaviour
             button.OnButtonPressed += OnButtonPressed;
         }
         GenerateSequence();
-        StartCoroutine(PlaySequence());
+        StartCoroutine(PlayCurrentSequence(_sequenceIndex));
     }
 
     private void OnDestroy()
@@ -32,32 +40,36 @@ public class SimonGame : MonoBehaviour
         }
     }
 
-
     private void OnButtonPressed(ButtonType buttonType)
     {
         Debug.Log("Button pressed: " + buttonType);
-
-        if (buttonType == _currentSequence[0])
+        if (!_canPlay)
         {
-            ButtonType[] newSequence = new ButtonType[_sequence.Length - 1];
-            for (int i = 0; i < newSequence.Length; i++)
+            return;
+        }
+        
+        if (_currentSequenceIndex < _sequenceIndex)
+        {
+            if (buttonType == _currentSequence[_currentSequenceIndex])
             {
-                newSequence[i] = _sequence[i + 1];
+                _currentSequenceIndex++;
             }
-            _currentSequence = newSequence;
-            if (_sequence.Length == 0)
+            else
             {
-                Debug.Log("Sequence completed");
-                GenerateSequence();
-                StartCoroutine(PlaySequence());
+                Debug.Log("Wrong button pressed");
             }
         }
-        else
+        if (_currentSequenceIndex >=  _sequenceIndex)
         {
-            Debug.Log("Wrong button pressed");
+            NextSequence();
+            StartCoroutine(PlayCurrentSequence(++_sequenceIndex));
         }
-
-        StartCoroutine(PlaySequence());
+        
+        if (_sequence.Length == 0)
+        {
+            Debug.Log("Sequence completed");
+            OnGameWon.Invoke();
+        }
     }
     
     private void GenerateSequence()
@@ -67,18 +79,32 @@ public class SimonGame : MonoBehaviour
         {
             _sequence[i] = (ButtonType)Random.Range(0, 5); //5 exclusive
         }
+        _sequenceIndex = 1;
+        _currentSequenceIndex = 0;
         _currentSequence = _sequence;
     }
     
-    private IEnumerator PlaySequence()
+    private IEnumerator PlayCurrentSequence(int currentIndex)
     {
-        _currentSequenceIndex++;
-        for (int i = 0; i < _currentSequenceIndex; i++)
+        _canPlay = false;
+        for (int i = 0; i <= currentIndex; i++)
         {
-            Debug.Log("Button: " + _sequence[_currentSequenceIndex]);
-            _simonButtons[(int)_sequence[_currentSequenceIndex]].HighlightButton(true);
+            Debug.Log("Button: " + _currentSequence[i]);
+            _simonButtons[(int)_currentSequence[i]].HighlightButton(true);
             yield return new WaitForSeconds(SequenceDelay);
-            _simonButtons[(int)_sequence[_currentSequenceIndex]].HighlightButton(false);
+            _simonButtons[(int)_currentSequence[i]].HighlightButton(false);
         }
+        _canPlay = true;
+    }
+    
+    private void NextSequence()
+    {
+        _currentSequenceIndex = 0;
+        ButtonType[] newSequence = new ButtonType[_currentSequence.Length - 1];
+        for (int i = 0; i < newSequence.Length; i++)
+        {
+            newSequence[i] = _currentSequence[i + 1];
+        }
+        _currentSequence = newSequence;
     }
 }
