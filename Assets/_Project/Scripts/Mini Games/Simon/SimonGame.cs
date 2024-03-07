@@ -11,8 +11,8 @@ public class SimonGame : MonoBehaviour
     [SerializeField] private Button[] _simonButtons;
     
     private ButtonType[] _sequence;
-    private ButtonType[] _currentsequence;
-    private int _currentsequenceIndex = 0;
+    private ButtonType[] _currentSequence;
+    private int _currentSequenceIndex = 0;
 
     private void Start()
     {
@@ -37,14 +37,14 @@ public class SimonGame : MonoBehaviour
     {
         Debug.Log("Button pressed: " + buttonType);
 
-        if (buttonType == _currentsequence[0])
+        if (buttonType == _currentSequence[0])
         {
             ButtonType[] newSequence = new ButtonType[_sequence.Length - 1];
             for (int i = 0; i < newSequence.Length; i++)
             {
                 newSequence[i] = _sequence[i + 1];
             }
-            _currentsequence = newSequence;
+            _currentSequence = newSequence;
             if (_sequence.Length == 0)
             {
                 Debug.Log("Sequence completed");
@@ -57,7 +57,7 @@ public class SimonGame : MonoBehaviour
             Debug.Log("Wrong button pressed");
         }
 
-        PlaySequence();
+        StartCoroutine(PlaySequence());
     }
     
     private void GenerateSequence()
@@ -67,19 +67,18 @@ public class SimonGame : MonoBehaviour
         {
             _sequence[i] = (ButtonType)Random.Range(0, 5); //5 exclusive
         }
-        _currentsequence = _sequence;
+        _currentSequence = _sequence;
     }
     
     private IEnumerator PlaySequence()
     {
-        _currentsequenceIndex++;
-        for (int i = 0; i < _currentsequenceIndex; i++)
+        _currentSequenceIndex++;
+        for (int i = 0; i < _currentSequenceIndex; i++)
         {
-            Debug.Log("Button: " + _sequence[_currentsequenceIndex]);
-            _simonButtons[(int)_sequence[_currentsequenceIndex]].HighlightButton(true);
+            Debug.Log("Button: " + _sequence[_currentSequenceIndex]);
+            _simonButtons[(int)_sequence[_currentSequenceIndex]].HighlightButton(true);
             yield return new WaitForSeconds(SequenceDelay);
-            _simonButtons[(int)_sequence[_currentsequenceIndex]].HighlightButton(false);
-            yield return new WaitForSeconds(SequenceDelay);
+            _simonButtons[(int)_sequence[_currentSequenceIndex]].HighlightButton(false);
         }
     }
 }
