@@ -43,11 +43,11 @@ Material:
     m_Ints: []
     m_Floats:
     - ENUM_1BB38181: 0
-    - Vector1_13E478A0: 37.13
+    - Vector1_13E478A0: 35.5
     - Vector1_469FF4D: 1.93
-    - Vector1_5DDB167B: 0.32
+    - Vector1_5DDB167B: 0.12
     - Vector1_964BC046: 9.68
-    - Vector1_97436D56: -5.94
+    - Vector1_97436D56: -6.69
     - Vector1_AEAD50FF: 1.29
     - Vector1_DBF011C: 3.08
     - Vector1_DE6ED6BB: 0
@@ -55,7 +55,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - Color_739931D1: {r: 0.030537898, g: 0.05355961, b: 0.7193374, a: 1}
+    - Color_739931D1: {r: 0.09191551, g: 0.011764702, b: 0.101960786, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &4769163850339374816
 MonoBehaviour:
