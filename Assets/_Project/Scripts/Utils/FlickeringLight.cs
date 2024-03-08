@@ -13,74 +13,64 @@ public class FlickeringLight : MonoBehaviour
     public float frequency = 0.5f; // cycle frequency per second
 
     // Keep a copy of the original color
-    private Color originalColor;
-    private new Light light;
+    private Color _originalColor;
+    private Light _light;
 
     // Store the original color
     void Start()
     {
-        light = GetComponent<Light>();
-        originalColor = light.color;
+        _light = GetComponent<Light>();
+        _originalColor = _light.color;
     }
 
     void Update()
     {
-        light.color = originalColor * (EvalWave());
+        _light.color = _originalColor * EvalWave();
     }
 
     float EvalWave()
     {
         float x = (Time.time + phase) * frequency;
         float y;
-        x = x - Mathf.Floor(x); // normalized value (0..1)
+        x -= Mathf.Floor(x); // normalized value (0..1)
 
-        if (waveform == WaveForm.sin)
+        switch (waveform)
         {
-            float sinValue = Mathf.Sin(x * 2 * Mathf.PI);
+            case WaveForm.sin:
+                float frequencyFactor = 2f;
+                float amplitudeFactor = 0.5f;
+                float phaseOffset = Random.Range(0f, 2f * Mathf.PI);
 
-            float frequencyFactor = 2f;
-            float amplitudeFactor = 0.5f;
-            float phaseOffset = Random.Range(0f, 2f * Mathf.PI);
+                float adjustedSinValue = Mathf.Sin((x * frequencyFactor + phaseOffset) * 2 * Mathf.PI) * amplitudeFactor;
+                y = Mathf.Clamp(adjustedSinValue, 0f, 1f);
+                break;
 
-            float adjustedSinValue = Mathf.Sin((x * frequencyFactor + phaseOffset) * 2 * Mathf.PI) * amplitudeFactor;
+            case WaveForm.tri:
+                y = (x < 0.5f) ? 4.0f * x - 1.0f : -4.0f * x + 3.0f;
+                break;
 
-            y = Mathf.Clamp(adjustedSinValue, 0f, 1f);
-        }
-        else if (waveform == WaveForm.tri)
-        {
+            case WaveForm.sqr:
+                y = (x < 0.5f) ? 1.0f : -1.0f;
+                break;
 
-            if (x < 0.5f)
-                y = 4.0f * x - 1.0f;
-            else
-                y = -4.0f * x + 3.0f;
-        }
-        else if (waveform == WaveForm.sqr)
-        {
+            case WaveForm.saw:
+                y = x;
+                break;
 
-            if (x < 0.5f)
+            case WaveForm.inv:
+                y = 1.0f - x;
+                break;
+
+            case WaveForm.noise:
+                y = 1f - (Random.value * 2);
+                break;
+
+            default:
                 y = 1.0f;
-            else
-                y = -1.0f;
+                break;
         }
-        else if (waveform == WaveForm.saw)
-        {
 
-            y = x;
-        }
-        else if (waveform == WaveForm.inv)
-        {
 
-            y = 1.0f - x;
-        }
-        else if (waveform == WaveForm.noise)
-        {
-
-            y = 1f - (Random.value * 2);
-        }
-        else
-        {
-            y = 1.0f;
-        }
         return (y * amplitude) + baseStart;
     }
 }
