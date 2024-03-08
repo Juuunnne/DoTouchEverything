@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class BottleMastermindDisplay : MonoBehaviour
@@ -6,7 +7,7 @@ public class BottleMastermindDisplay : MonoBehaviour
     private BottleMastermindGame _game = null;
 
     [SerializeField]
-    private UnityEngine.UI.Text _text = null;
+    private TextMeshPro _text = null;
 
     private void Start()
     {
