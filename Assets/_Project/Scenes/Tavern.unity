@@ -5237,11 +5237,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 653241752}
   m_SourcePrefab: {fileID: 100100000, guid: 4bdcecbd91881f14cb05fabbefe2688d, type: 3}
---- !u!4 &710107794 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6570352843091288613, guid: df0bb29c969bcb54babcbf79e849e334, type: 3}
-  m_PrefabInstance: {fileID: 1195995020}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &714241249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12889,10 +12884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5313794541488455981, guid: 6f5fe4fcdffa50f47ad1793fac6cafc7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 710107794}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5396721428507081495, guid: 6f5fe4fcdffa50f47ad1793fac6cafc7, type: 3}
       insertIndex: -1
@@ -12906,10 +12898,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1796086845}
     m_Modifications:
-    - target: {fileID: 146676207171969231, guid: 91ec293e2cce44e43a32cc1b8d8bdd23, type: 3}
-      propertyPath: OnGuessWrong.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 388794460973332306, guid: 91ec293e2cce44e43a32cc1b8d8bdd23, type: 3}
       propertyPath: m_Name
       value: Bottle Mastermind
@@ -12955,8 +12943,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 733005959651389093, guid: 91ec293e2cce44e43a32cc1b8d8bdd23, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5909262838316493628, guid: 91ec293e2cce44e43a32cc1b8d8bdd23, type: 3}
