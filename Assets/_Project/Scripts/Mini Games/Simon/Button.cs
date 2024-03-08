@@ -18,9 +18,8 @@ public class Button : MonoBehaviour
     
     [Header("Button Type")]
     public ButtonType buttonType;
-    
     public Action<ButtonType> OnButtonPressed;
-
+    
     private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -51,6 +50,11 @@ public class Button : MonoBehaviour
         HighlightButton(true);
         yield return new WaitForSeconds(0.3f);
         HighlightButton(false);
+    }
+
+    public void DebugMessage()
+    {
+        Debug.Log("Button Collided ");
     }
 
 }
