@@ -132,8 +132,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveform: 0
-  baseStart: 0
-  amplitude: 1
+  baseStart: 0.5
+  amplitude: 0.08
   phase: 0
   frequency: 0.5
 --- !u!1 &4083519727034605729
@@ -216,7 +216,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.8039216, b: 0, a: 1}
-  m_Intensity: 0.2
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -302,8 +302,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveform: 0
-  baseStart: 0
-  amplitude: 1
+  baseStart: 0.5
+  amplitude: 0.08
   phase: 0
   frequency: 0.5
 --- !u!1 &7214881556622167379
@@ -352,7 +352,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.8039216, b: 0, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -438,8 +438,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveform: 0
-  baseStart: 0
-  amplitude: 1
+  baseStart: 0.5
+  amplitude: 0.08
   phase: 0
   frequency: 0.5
 --- !u!1001 &3951322093882288532

@@ -163,11 +163,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4055892e32fca746af4b37d13a43fec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveform: 0
-  baseStart: 0.5
-  amplitude: 0.08
-  phase: 0
-  frequency: 0.5
+  _tolerance: 0.1
+  _flickerSpeed: 1
+  _minIntensity: 0.4
+  _maxIntensity: 1
 --- !u!1001 &4363825443090783940
 PrefabInstance:
   m_ObjectHideFlags: 0
