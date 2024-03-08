@@ -20,16 +20,6 @@ public class Button : MonoBehaviour
     public ButtonType buttonType;
     public Action<ButtonType> OnButtonPressed;
     
-    private void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Debug.Log("Player Controller Detected: " + other);
-            OnButtonPressed?.Invoke(buttonType);
-            StartCoroutine(HighlightOnPressed());
-        }
-    }
-
     public void HighlightButton(bool enable)
     {
         if (_highlightMaterial != null)
@@ -52,9 +42,11 @@ public class Button : MonoBehaviour
         HighlightButton(false);
     }
 
-    public void DebugMessage()
+    public void OnButtonCollision()
     {
-        Debug.Log("Button Collided ");
+        Debug.Log("Button pressed: " + buttonType);
+        OnButtonPressed?.Invoke(buttonType);
+        StartCoroutine(HighlightOnPressed());
     }
 
 }
