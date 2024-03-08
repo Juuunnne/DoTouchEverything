@@ -1,12 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class SimonGame : MiniGame
 {
     [SerializeField] private Button[] _simonButtons;
+    [SerializeField] private TextBox _textBox;
     
     public int SequenceIndex
     {
@@ -61,6 +63,7 @@ public class SimonGame : MiniGame
         }
         if (_currentSequenceIndex >=  _sequenceIndex)
         {
+            _textBox.SetText("Wait for the next sequence!");
             NextSequence();
             StartCoroutine(PlayCurrentSequence(++_sequenceIndex));
         }
@@ -85,9 +88,10 @@ public class SimonGame : MiniGame
     }
     
     private IEnumerator PlayCurrentSequence(int currentIndex)
-    {
+    { 
+        yield return new WaitForSeconds(1);
         _canPlay = false;
-        for (int i = 0; i <= currentIndex; i++)
+        for (int i = 0; i < currentIndex; i++)
         {
             Debug.Log("Button: " + _currentSequence[i]);
             _simonButtons[(int)_currentSequence[i]].HighlightButton(true);
