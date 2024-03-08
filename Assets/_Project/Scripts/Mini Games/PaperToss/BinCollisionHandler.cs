@@ -12,7 +12,6 @@ public class ScoreZoneCollisionHandler : MonoBehaviour
             {
                 paperTossGame.IncrementScore();
             }
-
             Destroy(other.gameObject);
         }
     }

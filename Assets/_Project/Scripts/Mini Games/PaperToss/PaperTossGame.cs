@@ -3,13 +3,12 @@ using UnityEngine.Events;
 
 public class PaperTossGame : MiniGame
 {
-    [Tooltip("Event invoked when the player makes a wrong throw.")]
-    public UnityEvent OnThrowWrong = new UnityEvent();
+    public UnityEvent<int> OnUpdateScore = new ();
 
     [SerializeField]
-    private float _maxScore = 10;
+    private int _maxScore = 10;
 
-    private float _currentScore = 0;
+    private int _currentScore = 0;
 
     private void Start()
     {
@@ -18,18 +17,11 @@ public class PaperTossGame : MiniGame
 
     public void IncrementScore()
     {
-        _currentScore++;
-        Debug.Log("Score: " + _currentScore);
+        OnUpdateScore.Invoke(++_currentScore);
 
         if (_currentScore >= _maxScore)
         {
-            Debug.Log("Game Won");
             OnGameWon.Invoke();
         }
-    }
-
-    public void NotifyThrowWrong()
-    {
-        OnThrowWrong.Invoke();
     }
 }
