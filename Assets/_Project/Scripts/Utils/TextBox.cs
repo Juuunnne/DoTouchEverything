@@ -10,14 +10,17 @@ public class TextBox : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _text;
     void Update()
     {
-        if (_text.text == "")
+        if (_background)
         {
-            _background.enabled = false;
-        }
-        else
-        {
-            _background.enabled = true;
-            _background.rectTransform.sizeDelta = new Vector2(_text.preferredWidth + 20, _text.preferredHeight + 20);
+            if (_text.text == "")
+            {
+                _background.enabled = false;
+            }
+            else
+            {
+                _background.enabled = true;
+                _background.rectTransform.sizeDelta = new Vector2(_text.preferredWidth + 20, _text.preferredHeight + 20);
+            }
         }
     }
     
