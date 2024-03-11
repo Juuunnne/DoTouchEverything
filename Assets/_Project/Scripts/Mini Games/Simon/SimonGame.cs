@@ -8,6 +8,8 @@ using Random = UnityEngine.Random;
 public class SimonGame : MiniGame
 {
     [SerializeField] private Button[] _simonButtons;
+    [SerializeField] private TextMeshPro _textBox;
+    
     public int SequenceIndex
     {
         get => _sequenceIndex;
@@ -28,8 +30,8 @@ public class SimonGame : MiniGame
         {
             button.OnButtonPressed += OnButtonPressed;
         }
-        GenerateSequence();
-        StartCoroutine(PlayCurrentSequence(_sequenceIndex));
+        _textBox.text = "Press to play!";
+        OnGameWon.AddListener(GameOver);
     }
 
     private void OnDestroy()
@@ -56,11 +58,12 @@ public class SimonGame : MiniGame
             }
             else
             {
-                Debug.Log("Wrong button pressed");
+                _textBox.text = "Wrong button!";
             }
         }
         if (_currentSequenceIndex >=  _sequenceIndex)
         {
+            _textBox.text = "Wait for the next sequence!";
             NextSequence();
             StartCoroutine(PlayCurrentSequence(++_sequenceIndex));
         }
@@ -107,5 +110,26 @@ public class SimonGame : MiniGame
             newSequence[i] = _currentSequence[i + 1];
         }
         _currentSequence = newSequence;
+    }
+    
+    private void GameOver()
+    {
+        _textBox.text = "Game Over!";
+        _sequence = Array.Empty<ButtonType>();
+        _currentSequence = Array.Empty<ButtonType>();
+        foreach (var button in _simonButtons)
+        {
+            button.gameObject.SetActive(false);
+        }
+    }
+    
+    public void StartGame()
+    {
+        foreach (var button in _simonButtons)
+        {
+            button.gameObject.SetActive(true);
+        }
+        GenerateSequence();
+        StartCoroutine(PlayCurrentSequence(_sequenceIndex));
     }
 }
