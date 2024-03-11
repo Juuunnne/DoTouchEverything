@@ -1,6 +1,5 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class MiniGamesManager : MonoBehaviour
 {
