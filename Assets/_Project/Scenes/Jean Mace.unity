@@ -23799,21 +23799,8 @@ MonoBehaviour:
   _miniGames:
   - {fileID: 1925735891}
   - {fileID: 887657269}
-  OnAllGamesWon:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 867236718078605204}
-        m_TargetAssemblyTypeName: ExitDoor, Assembly-CSharp
-        m_MethodName: OpenDoor
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+  _displayText: {fileID: 867236718078605204}
+  _exitDoor: {fileID: 867236718078605205}
 --- !u!1 &1803268697
 GameObject:
   m_ObjectHideFlags: 0
@@ -28944,15 +28931,20 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: fde4d7f3f71a71b4e9d5221383c87e53, type: 3}
 --- !u!114 &867236718078605204 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5970456988889240917, guid: fde4d7f3f71a71b4e9d5221383c87e53, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3196844990304578160, guid: fde4d7f3f71a71b4e9d5221383c87e53, type: 3}
   m_PrefabInstance: {fileID: 867236718078605203}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 550f91b2eceacd44a94d233197b3e61d, type: 3}
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &867236718078605205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2804669625241518886, guid: fde4d7f3f71a71b4e9d5221383c87e53, type: 3}
+  m_PrefabInstance: {fileID: 867236718078605203}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2010963087464702990
 PrefabInstance:
   m_ObjectHideFlags: 0
