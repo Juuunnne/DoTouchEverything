@@ -21,6 +21,7 @@ public class MiniGamesManager : MonoBehaviour
         }
     }
 
+    [ContextMenu("Add a win")]
     private void OnGameWon()
     {
         _miniGamesWon++;
