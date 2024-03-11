@@ -43,7 +43,6 @@ GameObject:
   - component: {fileID: 3755346727003544180}
   - component: {fileID: 460072067671589929}
   - component: {fileID: 9060786692705005508}
-  - component: {fileID: 4484610023019009708}
   m_Layer: 0
   m_Name: TableCandles
   m_TagString: Untagged
@@ -151,22 +150,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!114 &4484610023019009708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6852739491260862494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4055892e32fca746af4b37d13a43fec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tolerance: 0.1
-  _flickerSpeed: 1
-  _minIntensity: 0.4
-  _maxIntensity: 1
 --- !u!1001 &4363825443090783940
 PrefabInstance:
   m_ObjectHideFlags: 0

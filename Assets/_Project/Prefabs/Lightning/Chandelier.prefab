@@ -151,7 +151,6 @@ GameObject:
   - component: {fileID: 4219347063304554302}
   - component: {fileID: 1256363703069104925}
   - component: {fileID: 7090553542494912271}
-  - component: {fileID: 5423924098370024983}
   m_Layer: 0
   m_Name: WallCandles
   m_TagString: Untagged
@@ -259,22 +258,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!114 &5423924098370024983
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 257328765732917149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4055892e32fca746af4b37d13a43fec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tolerance: 0.1
-  _flickerSpeed: 1
-  _minIntensity: 0.4
-  _maxIntensity: 1
 --- !u!1 &962820759984362516
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,7 +535,6 @@ GameObject:
   - component: {fileID: 3229545187777444652}
   - component: {fileID: 517922555369105167}
   - component: {fileID: 8374781131833934621}
-  - component: {fileID: 6708711749607377413}
   m_Layer: 0
   m_Name: WallCandles
   m_TagString: Untagged
@@ -660,22 +642,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!114 &6708711749607377413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1571106279866299279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4055892e32fca746af4b37d13a43fec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tolerance: 0.1
-  _flickerSpeed: 1
-  _minIntensity: 0.4
-  _maxIntensity: 1
 --- !u!1 &1934807303467151089
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,7 +1150,6 @@ GameObject:
   - component: {fileID: 1053074703812016515}
   - component: {fileID: 2701284772144080288}
   - component: {fileID: 6230115391964365234}
-  - component: {fileID: 9175734782413736106}
   m_Layer: 0
   m_Name: WallCandles
   m_TagString: Untagged
@@ -1292,22 +1257,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!114 &9175734782413736106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3999569442973495584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4055892e32fca746af4b37d13a43fec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tolerance: 0.1
-  _flickerSpeed: 1
-  _minIntensity: 0.4
-  _maxIntensity: 1
 --- !u!1 &4156604972237617437
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,7 +1435,6 @@ GameObject:
   - component: {fileID: 8158444043886844597}
   - component: {fileID: 6546329834127951510}
   - component: {fileID: 3012917549556179588}
-  - component: {fileID: 68427382647384988}
   m_Layer: 0
   m_Name: WallCandles
   m_TagString: Untagged
@@ -1594,22 +1542,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!114 &68427382647384988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5198433025601163798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4055892e32fca746af4b37d13a43fec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tolerance: 0.1
-  _flickerSpeed: 1
-  _minIntensity: 0.4
-  _maxIntensity: 1
 --- !u!1 &5393565310031300679
 GameObject:
   m_ObjectHideFlags: 0
@@ -2486,7 +2418,6 @@ GameObject:
   - component: {fileID: 6903580489472838292}
   - component: {fileID: 8372138989966284471}
   - component: {fileID: 515350777645527717}
-  - component: {fileID: 3316327277545208765}
   m_Layer: 0
   m_Name: WallCandles
   m_TagString: Untagged
@@ -2594,22 +2525,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!114 &3316327277545208765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7409097630783078967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4055892e32fca746af4b37d13a43fec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tolerance: 0.1
-  _flickerSpeed: 1
-  _minIntensity: 0.4
-  _maxIntensity: 1
 --- !u!1 &7534351121850800690
 GameObject:
   m_ObjectHideFlags: 0
@@ -2621,7 +2536,6 @@ GameObject:
   - component: {fileID: 5878167865254777489}
   - component: {fileID: 8823347075293597362}
   - component: {fileID: 683394486741527200}
-  - component: {fileID: 2330882676786799544}
   m_Layer: 0
   m_Name: WallCandles
   m_TagString: Untagged
@@ -2729,22 +2643,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!114 &2330882676786799544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7534351121850800690}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4055892e32fca746af4b37d13a43fec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tolerance: 0.1
-  _flickerSpeed: 1
-  _minIntensity: 0.4
-  _maxIntensity: 1
 --- !u!1 &7740204260001017029
 GameObject:
   m_ObjectHideFlags: 0
@@ -2872,7 +2770,6 @@ GameObject:
   - component: {fileID: 5330239876070274660}
   - component: {fileID: 7068805335060949575}
   - component: {fileID: 1229559391520984661}
-  - component: {fileID: 4049676264831174477}
   m_Layer: 0
   m_Name: WallCandles
   m_TagString: Untagged
@@ -2980,22 +2877,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!114 &4049676264831174477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8134844562596265671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4055892e32fca746af4b37d13a43fec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tolerance: 0.1
-  _flickerSpeed: 1
-  _minIntensity: 0.4
-  _maxIntensity: 1
 --- !u!1 &8221750334742439062
 GameObject:
   m_ObjectHideFlags: 0
@@ -3091,7 +2972,6 @@ GameObject:
   - component: {fileID: 5503112962162795809}
   - component: {fileID: 7475797227247794434}
   - component: {fileID: 1492496018738994448}
-  - component: {fileID: 4437589224556991496}
   m_Layer: 0
   m_Name: WallCandles
   m_TagString: Untagged
@@ -3199,22 +3079,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!114 &4437589224556991496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8449574234804759938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4055892e32fca746af4b37d13a43fec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tolerance: 0.1
-  _flickerSpeed: 1
-  _minIntensity: 0.4
-  _maxIntensity: 1
 --- !u!1 &8880452532570515885
 GameObject:
   m_ObjectHideFlags: 0

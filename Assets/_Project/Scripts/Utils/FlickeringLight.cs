@@ -7,9 +7,9 @@ public class FlickeringLight : MonoBehaviour
 
     [SerializeField]
     private float
-        _tolerance = 0.01f,
-        _flickerSpeed = 1.0f,
-        _minIntensity = 0.0f,
+        _tolerance = 0.1f,
+        _flickerSpeed = 0.4f,
+        _minIntensity = 0.6f,
         _maxIntensity = 1.0f;
     private float _random = 0.5f;
 
@@ -23,9 +23,10 @@ public class FlickeringLight : MonoBehaviour
         if (_light.intensity.IsEqualTo(_random, _tolerance))
         {
             _random = NewRandom();
+
         }
 
-        _light.intensity = Mathf.Lerp(_light.intensity, _random, _flickerSpeed * Time.deltaTime);
+        _light.intensity += Mathf.Sign(_random - _light.intensity) * _flickerSpeed * Time.deltaTime;
     }
 
     private float NewRandom()

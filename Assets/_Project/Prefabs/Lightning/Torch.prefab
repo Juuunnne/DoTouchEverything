@@ -178,7 +178,6 @@ GameObject:
   - component: {fileID: 1144039849151316850}
   - component: {fileID: 2594587696357023569}
   - component: {fileID: 6271516484751506243}
-  - component: {fileID: 9091630581004104283}
   m_Layer: 0
   m_Name: WallCandles
   m_TagString: Untagged
@@ -286,22 +285,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!114 &9091630581004104283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3962152568743087057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4055892e32fca746af4b37d13a43fec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tolerance: 0.1
-  _flickerSpeed: 1
-  _minIntensity: 0.4
-  _maxIntensity: 1
 --- !u!1 &5994186412693620215
 GameObject:
   m_ObjectHideFlags: 0
