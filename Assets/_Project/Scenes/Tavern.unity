@@ -13088,9 +13088,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2979712031261028765, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2979712031261028765, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_Center.y
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 2982100619831723848, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
       propertyPath: m_Name
       value: Simon Game
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030347268287648215, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3030347268287648215, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_Center.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722925664200172062, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722925664200172062, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3722925664200172062, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.557
       objectReference: {fileID: 0}
     - target: {fileID: 5097264483528797578, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
       propertyPath: m_fontSize
@@ -13107,6 +13135,18 @@ PrefabInstance:
     - target: {fileID: 5097264483528797578, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
       propertyPath: m_fontSizeBase
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5842143698245997539, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5894366804616460924, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5894366804616460924, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_Center.y
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 5975024633468080438, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
       propertyPath: m_AnchorMax.y
@@ -13168,7 +13208,24 @@ PrefabInstance:
       propertyPath: _textBox
       value: 
       objectReference: {fileID: 1599546642}
-    m_RemovedComponents: []
+    - target: {fileID: 6270403537634340985, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6270403537634340985, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_Center.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266415612762609156, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7266415612762609156, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_Center.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5842143698245997539, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
