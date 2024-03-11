@@ -84,7 +84,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6481453553243846568}
-  - component: {fileID: 5970456988889240917}
   m_Layer: 0
   m_Name: ExitDoor
   m_TagString: Untagged
@@ -110,21 +109,6 @@ Transform:
   - {fileID: 387017678718373717}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5970456988889240917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2087897720359911334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 550f91b2eceacd44a94d233197b3e61d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _exitDoor: {fileID: 2804669625241518886}
-  _displayText: {fileID: 3196844990304578160}
-  _miniGamesManager: {fileID: 0}
 --- !u!1001 &5842810604545729975
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -306,14 +290,3 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8303989683619113312, guid: f24aeeec73005b14b9ccdbb97cc39f9e, type: 3}
   m_PrefabInstance: {fileID: 8530736996881933877}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3196844990304578160 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6502702588079197253, guid: f24aeeec73005b14b9ccdbb97cc39f9e, type: 3}
-  m_PrefabInstance: {fileID: 8530736996881933877}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

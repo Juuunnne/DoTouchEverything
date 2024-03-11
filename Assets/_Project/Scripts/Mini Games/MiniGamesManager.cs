@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -7,7 +8,11 @@ public class MiniGamesManager : MonoBehaviour
     private MiniGame[] _miniGames = new MiniGame[0];
     private int _miniGamesWon = 0;
 
-    public UnityEvent OnAllGamesWon = new();
+    [SerializeField]
+    private TextMeshPro _displayText;
+
+    [SerializeField]
+    private GameObject _exitDoor;
 
     private void Start()
     {
@@ -22,8 +27,12 @@ public class MiniGamesManager : MonoBehaviour
         _miniGamesWon++;
         if (_miniGamesWon == _miniGames.Length)
         {
-            Debug.Log("All games won!");
-            OnAllGamesWon.Invoke();
+            _displayText.text = "Exit open!";
+            _exitDoor.SetActive(false);
+        }
+        else
+        {
+            _displayText.text = _miniGamesWon + " / " + _miniGames.Length;
         }
     }
 }

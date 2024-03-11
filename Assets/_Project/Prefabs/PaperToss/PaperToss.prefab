@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5313794541488455981
 Transform:
@@ -47,9 +47,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OnGameWon:
-    m_PersistentCalls:
-      m_Calls: []
-  OnThrowWrong:
     m_PersistentCalls:
       m_Calls: []
   OnUpdateScore:
@@ -186,6 +183,10 @@ PrefabInstance:
     - target: {fileID: 1351040850636445199, guid: f24aeeec73005b14b9ccdbb97cc39f9e, type: 3}
       propertyPath: m_Name
       value: Display Monitor
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677470035329947330, guid: f24aeeec73005b14b9ccdbb97cc39f9e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6502702588079197253, guid: f24aeeec73005b14b9ccdbb97cc39f9e, type: 3}
       propertyPath: m_text

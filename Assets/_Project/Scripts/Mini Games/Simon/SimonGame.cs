@@ -8,8 +8,6 @@ using Random = UnityEngine.Random;
 public class SimonGame : MiniGame
 {
     [SerializeField] private Button[] _simonButtons;
-    [SerializeField] private TextBox _textBox;
-    
     public int SequenceIndex
     {
         get => _sequenceIndex;
@@ -63,7 +61,6 @@ public class SimonGame : MiniGame
         }
         if (_currentSequenceIndex >=  _sequenceIndex)
         {
-            _textBox.SetText("Wait for the next sequence!");
             NextSequence();
             StartCoroutine(PlayCurrentSequence(++_sequenceIndex));
         }
