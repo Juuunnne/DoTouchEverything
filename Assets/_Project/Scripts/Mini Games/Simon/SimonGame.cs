@@ -9,7 +9,7 @@ public class SimonGame : MiniGame
 {
     [SerializeField] private Button[] _simonButtons;
     [SerializeField] private TextMeshPro _textBox;
-    
+
     public int SequenceIndex
     {
         get => _sequenceIndex;
@@ -17,7 +17,7 @@ public class SimonGame : MiniGame
     }
     public int SequenceLength = 10;
     public float SequenceDelay = 1.0f;
-    
+
     private ButtonType[] _sequence;
     private ButtonType[] _currentSequence;
     private int _sequenceIndex = 0;
@@ -49,7 +49,7 @@ public class SimonGame : MiniGame
         {
             return;
         }
-        
+
         if (_currentSequenceIndex < _sequenceIndex)
         {
             if (buttonType == _currentSequence[_currentSequenceIndex])
@@ -67,14 +67,14 @@ public class SimonGame : MiniGame
             NextSequence();
             StartCoroutine(PlayCurrentSequence(++_sequenceIndex));
         }
-        
+
         if (_sequence.Length == 0)
         {
             Debug.Log("Sequence completed");
             OnGameWon.Invoke();
         }
     }
-    
+
     private void GenerateSequence()
     {
         _sequence = new ButtonType[SequenceLength];
@@ -86,21 +86,21 @@ public class SimonGame : MiniGame
         _currentSequenceIndex = 0;
         _currentSequence = _sequence;
     }
-    
+
     private IEnumerator PlayCurrentSequence(int currentIndex)
-    { 
+    {
         yield return new WaitForSeconds(1);
         _canPlay = false;
         for (int i = 0; i < currentIndex; i++)
         {
-            Debug.Log("Button: " + _currentSequence[i]);
-            _simonButtons[(int)_currentSequence[i]].HighlightButton(true);
+            Debug.Log("Button: " + _sequence[i]);
+            _simonButtons[(int)_sequence[i]].HighlightButton(true);
             yield return new WaitForSeconds(SequenceDelay);
-            _simonButtons[(int)_currentSequence[i]].HighlightButton(false);
+            _simonButtons[(int)_sequence[i]].HighlightButton(false);
         }
         _canPlay = true;
     }
-    
+
     private void NextSequence()
     {
         _currentSequenceIndex = 0;
@@ -110,8 +110,9 @@ public class SimonGame : MiniGame
             newSequence[i] = _currentSequence[i + 1];
         }
         _currentSequence = newSequence;
+        _textBox.text = $"{_sequenceIndex}/10";
     }
-    
+
     private void GameOver()
     {
         _textBox.text = "Game Over!";
@@ -122,7 +123,7 @@ public class SimonGame : MiniGame
             button.gameObject.SetActive(false);
         }
     }
-    
+
     public void StartGame()
     {
         foreach (var button in _simonButtons)
