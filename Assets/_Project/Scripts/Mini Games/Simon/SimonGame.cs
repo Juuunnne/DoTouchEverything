@@ -54,14 +54,14 @@ public class SimonGame : MiniGame
         {
             if (buttonType == _currentSequence[_currentSequenceIndex])
             {
-                _currentSequenceIndex++;
+                ++_currentSequenceIndex;
             }
             else
             {
                 _textBox.text = "Wrong button!";
             }
         }
-        if (_currentSequenceIndex ==  _sequenceIndex)
+        if (_currentSequenceIndex >=  _sequenceIndex)
         {
             _textBox.text = "Wait for the next sequence!";
             NextSequence();
@@ -89,8 +89,8 @@ public class SimonGame : MiniGame
 
     private IEnumerator PlayCurrentSequence(int currentIndex)
     {
-        yield return new WaitForSeconds(1);
         _canPlay = false;
+        yield return new WaitForSeconds(1);
         for (int i = 0; i < currentIndex; i++)
         {
             Debug.Log("Button: " + _sequence[i]);
