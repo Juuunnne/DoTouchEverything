@@ -22,9 +22,7 @@ public class DeadZone : MonoBehaviour
     {
         if (collision.CompareTag("ScoreObject"))
         {
-            Debug.Log("Object entered dead zone");
             StartCoroutine(ReplaceObject(collision.gameObject));
-            Debug.Log("Coroutine Start");
         }
     }
 
