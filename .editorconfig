@@ -1,9 +1,17 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
 root = true
 
+# All files
 [*]
-end_of_line = lf
+end_of_line = crlf
 insert_final_newline = true
+
+# C# and shader files
+[*.{cs, shader, hlsl, cginc}]
+charset = utf-8
 indent_style = space
 indent_size = 4
 trim_trailing_whitespace = true
-
+insert_final_newline = true
