@@ -12597,6 +12597,10 @@ PrefabInstance:
       propertyPath: _cooldownTime
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 4642758487583397539, guid: 6f5fe4fcdffa50f47ad1793fac6cafc7, type: 3}
+      propertyPath: m_Center.y
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 5311060674535431141, guid: 6f5fe4fcdffa50f47ad1793fac6cafc7, type: 3}
       propertyPath: m_Name
       value: PaperToss
@@ -12639,6 +12643,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5313794541488455981, guid: 6f5fe4fcdffa50f47ad1793fac6cafc7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7755127348277449429, guid: 6f5fe4fcdffa50f47ad1793fac6cafc7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7755127348277449429, guid: 6f5fe4fcdffa50f47ad1793fac6cafc7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7755127348277449429, guid: 6f5fe4fcdffa50f47ad1793fac6cafc7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7755127348277449429, guid: 6f5fe4fcdffa50f47ad1793fac6cafc7, type: 3}
+      propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

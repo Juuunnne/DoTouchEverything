@@ -52,9 +52,9 @@ public class SimonGame : MiniGame
 
         if (_currentSequenceIndex < _sequenceIndex)
         {
-            if (buttonType == _currentSequence[_currentSequenceIndex])
+            if (buttonType == _sequence[_currentSequenceIndex])
             {
-                ++_currentSequenceIndex;
+                _currentSequenceIndex++;
             }
             else
             {
@@ -64,8 +64,9 @@ public class SimonGame : MiniGame
         if (_currentSequenceIndex >=  _sequenceIndex)
         {
             _textBox.text = "Wait for the next sequence!";
+            _sequenceIndex++;
             NextSequence();
-            StartCoroutine(PlayCurrentSequence(++_sequenceIndex));
+            StartCoroutine(PlayCurrentSequence(_sequenceIndex));
         }
 
         if (_sequence.Length == 0)
@@ -89,8 +90,8 @@ public class SimonGame : MiniGame
 
     private IEnumerator PlayCurrentSequence(int currentIndex)
     {
-        _canPlay = false;
         yield return new WaitForSeconds(1);
+        _canPlay = false;
         for (int i = 0; i < currentIndex; i++)
         {
             Debug.Log("Button: " + _sequence[i]);
@@ -103,13 +104,11 @@ public class SimonGame : MiniGame
 
     private void NextSequence()
     {
-        _currentSequenceIndex = 0;
-        ButtonType[] newSequence = new ButtonType[_currentSequence.Length - 1];
-        for (int i = 0; i < newSequence.Length; i++)
+        if (_sequence.Length == 0)
         {
-            newSequence[i] = _currentSequence[i + 1];
+            Debug.Log("Sequence completed");
+            OnGameWon.Invoke();
         }
-        _currentSequence = newSequence;
         _textBox.text = $"{_sequenceIndex}/{SequenceLength}";
     }
 
@@ -126,6 +125,7 @@ public class SimonGame : MiniGame
 
     public void StartGame()
     {
+        _textBox.text = "Start!";
         foreach (var button in _simonButtons)
         {
             button.gameObject.SetActive(true);
