@@ -61,7 +61,7 @@ public class SimonGame : MiniGame
                 _textBox.text = "Wrong button!";
             }
         }
-        if (_currentSequenceIndex >=  _sequenceIndex)
+        if (_currentSequenceIndex ==  _sequenceIndex)
         {
             _textBox.text = "Wait for the next sequence!";
             NextSequence();
@@ -110,7 +110,7 @@ public class SimonGame : MiniGame
             newSequence[i] = _currentSequence[i + 1];
         }
         _currentSequence = newSequence;
-        _textBox.text = $"{_sequenceIndex}/10";
+        _textBox.text = $"{_sequenceIndex}/{SequenceLength}";
     }
 
     private void GameOver()
