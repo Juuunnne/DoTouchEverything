@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public class PaperTossDisplay : MonoBehaviour
+public class PaperTossDisplayy : MonoBehaviour
 {
     [SerializeField]
     private TextMeshPro _text = null;

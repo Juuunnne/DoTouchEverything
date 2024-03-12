@@ -26472,6 +26472,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1796086845}
     m_Modifications:
+    - target: {fileID: 865722955557843894, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448808744274340756, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2498387366999133150, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2681644141029774878, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.587
@@ -26515,6 +26527,18 @@ PrefabInstance:
     - target: {fileID: 2982100619831723848, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
       propertyPath: m_Name
       value: Simon Game
+      objectReference: {fileID: 0}
+    - target: {fileID: 6501756668065300543, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6697675730312481338, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8007788113807715399, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

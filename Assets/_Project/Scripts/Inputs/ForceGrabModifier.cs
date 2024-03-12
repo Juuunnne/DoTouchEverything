@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using Unity.VRTemplate;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -23,8 +22,11 @@ public class ForceGrabModifier : MonoBehaviour
 
     private void OnDestroy()
     {
-        _interactor.selectEntered.RemoveListener(OnObjectGrab);
-        _interactor.selectExited.RemoveListener(OnObjectRelease);
+        if (_interactor != null)
+        {
+            _interactor.selectEntered.RemoveListener(OnObjectGrab);
+            _interactor.selectExited.RemoveListener(OnObjectRelease);
+        }
     }
 
     void OnObjectGrab(SelectEnterEventArgs a)
