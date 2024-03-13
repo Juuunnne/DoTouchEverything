@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -361,6 +361,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (151)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -609,6 +617,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -847,6 +863,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1158,6 +1182,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1220,6 +1252,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (200)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1281,6 +1321,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (149)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1468,6 +1516,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (177)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1529,6 +1585,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (213)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1778,6 +1842,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2025,6 +2097,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (171)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2336,6 +2416,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (207)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2584,6 +2672,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2645,6 +2741,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2770,6 +2874,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2831,6 +2943,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2894,6 +3014,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2955,6 +3083,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (150)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3080,6 +3216,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf WIth Bottles (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8696864603255450999, guid: 42d99d772968d2548b65bd3118b8f239, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3204,6 +3344,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (204)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3265,6 +3413,10 @@ PrefabInstance:
     - target: {fileID: 8696864603255450999, guid: 42d99d772968d2548b65bd3118b8f239, type: 3}
       propertyPath: m_Name
       value: Shelf WIth Bottles
+      objectReference: {fileID: 0}
+    - target: {fileID: 8696864603255450999, guid: 42d99d772968d2548b65bd3118b8f239, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3452,6 +3604,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (199)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3514,6 +3674,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3575,6 +3743,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (178)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3663,7 +3839,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &208283280
 Transform:
@@ -3970,6 +4146,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4156,6 +4340,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4305,7 +4497,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &249927611
 Transform:
@@ -4581,6 +4773,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4729,7 +4929,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &285094538
 Transform:
@@ -4865,6 +5065,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (122)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4989,6 +5197,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5051,6 +5267,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5072,6 +5296,14 @@ PrefabInstance:
     - target: {fileID: 980589187826819414, guid: 48eab37cb768cdc4a90dcabf9cccaca6, type: 3}
       propertyPath: m_Name
       value: Table 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 980589187826819414, guid: 48eab37cb768cdc4a90dcabf9cccaca6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6212174643064546579, guid: 48eab37cb768cdc4a90dcabf9cccaca6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7098159420382045601, guid: 48eab37cb768cdc4a90dcabf9cccaca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5112,6 +5344,14 @@ PrefabInstance:
     - target: {fileID: 7098159420382045601, guid: 48eab37cb768cdc4a90dcabf9cccaca6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532922692056036227, guid: 48eab37cb768cdc4a90dcabf9cccaca6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086527166601820426, guid: 48eab37cb768cdc4a90dcabf9cccaca6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5187,6 +5427,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (156)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5249,6 +5497,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5310,6 +5566,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5434,6 +5698,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5621,6 +5893,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (187)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5745,6 +6025,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5806,6 +6094,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (138)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5931,6 +6227,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (144)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6055,6 +6359,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6142,7 +6454,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &365716616
 Transform:
@@ -6231,6 +6543,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6514,6 +6834,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6576,6 +6904,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6637,6 +6973,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6761,6 +7105,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6908,6 +7260,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Table 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1710055446650426158, guid: 54685f90e6ff77b4c8aab2a537e8eeaf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4769528992755328543, guid: 54685f90e6ff77b4c8aab2a537e8eeaf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5995609221440506415, guid: 54685f90e6ff77b4c8aab2a537e8eeaf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7980016845584211829, guid: 54685f90e6ff77b4c8aab2a537e8eeaf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8692277783023671257, guid: 54685f90e6ff77b4c8aab2a537e8eeaf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.39
@@ -7009,6 +7377,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (224)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7210,6 +7586,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (181)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7272,6 +7656,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7333,6 +7725,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (198)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7582,6 +7982,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7643,6 +8051,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7768,6 +8184,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7829,6 +8253,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7892,6 +8324,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7954,6 +8394,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8015,6 +8463,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (211)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8202,6 +8658,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (196)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8387,6 +8851,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (190)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8636,6 +9108,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8698,6 +9178,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8759,6 +9247,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (176)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8946,6 +9442,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (201)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9007,6 +9511,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9318,6 +9830,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9342,7 +9862,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &551422247
 Transform:
@@ -9701,6 +10221,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9725,7 +10253,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &562871024
 Transform:
@@ -9797,6 +10325,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (104)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9921,6 +10457,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (126)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10061,6 +10605,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 05ed6712e63624949b8e65bce9c4115a, type: 3}
       propertyPath: m_Name
       value: barrel_small (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 05ed6712e63624949b8e65bce9c4115a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10339,6 +10887,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (209)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10360,6 +10916,10 @@ PrefabInstance:
     - target: {fileID: 3072444256017843580, guid: 58510b369cb619c40ad158476dbeed3c, type: 3}
       propertyPath: m_Name
       value: Table 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072444256017843580, guid: 58510b369cb619c40ad158476dbeed3c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5024320693032272267, guid: 58510b369cb619c40ad158476dbeed3c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10422,6 +10982,10 @@ PrefabInstance:
     - target: {fileID: 1033432629463805083, guid: b13f2fced503b6641b1503c3ed9813eb, type: 3}
       propertyPath: m_Name
       value: Bar Props
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033432629463805083, guid: b13f2fced503b6641b1503c3ed9813eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4482032541342667430, guid: b13f2fced503b6641b1503c3ed9813eb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10587,6 +11151,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf WIth Bottles (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8696864603255450999, guid: 42d99d772968d2548b65bd3118b8f239, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10649,6 +11217,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10710,6 +11286,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (111)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10959,6 +11543,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11144,6 +11736,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (225)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11331,6 +11931,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11517,6 +12125,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (175)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11578,6 +12194,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11826,6 +12450,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (131)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12213,6 +12845,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (223)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12337,6 +12977,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12361,7 +13009,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &720415275
 Transform:
@@ -12891,6 +13539,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (222)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12952,6 +13608,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13076,6 +13740,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (212)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13263,6 +13935,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (191)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13325,6 +14005,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13350,7 +14038,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &792970845
 Transform:
@@ -13439,6 +14127,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13688,6 +14384,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (128)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13765,6 +14469,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 05ed6712e63624949b8e65bce9c4115a, type: 3}
       propertyPath: m_Name
       value: barrel_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 05ed6712e63624949b8e65bce9c4115a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13981,6 +14689,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14104,6 +14820,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14309,9 +15033,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 720415275}
     m_Modifications:
+    - target: {fileID: 3258743928576635590, guid: c350fc88a4e127447b2726fa8adc69cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3493852898391698296, guid: c350fc88a4e127447b2726fa8adc69cd, type: 3}
       propertyPath: m_Name
       value: Table 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3493852898391698296, guid: c350fc88a4e127447b2726fa8adc69cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6874413304600358799, guid: c350fc88a4e127447b2726fa8adc69cd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14352,6 +15084,14 @@ PrefabInstance:
     - target: {fileID: 6874413304600358799, guid: c350fc88a4e127447b2726fa8adc69cd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7150686887893696097, guid: c350fc88a4e127447b2726fa8adc69cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8840975374194033636, guid: c350fc88a4e127447b2726fa8adc69cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14513,7 +15253,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &848442030
 Transform:
@@ -14775,6 +15515,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14837,6 +15585,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14898,6 +15654,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3079481d9bb4e814983a9735e36e8be6, type: 3}
       propertyPath: m_Name
       value: banner_shield_green
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3079481d9bb4e814983a9735e36e8be6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15023,6 +15783,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (210)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15146,6 +15914,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (221)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15395,6 +16171,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15581,6 +16365,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15642,6 +16434,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (220)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15705,6 +16505,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15766,6 +16574,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (203)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15891,6 +16707,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15971,6 +16795,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 720415275}
     m_Modifications:
+    - target: {fileID: 2587109821070875585, guid: b1c43ff901cbc694ba2caf7a25d6a43c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3934521088987296569, guid: b1c43ff901cbc694ba2caf7a25d6a43c, type: 3}
       propertyPath: m_Name
       value: bar 1
@@ -16015,6 +16843,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5901703995733496617, guid: b1c43ff901cbc694ba2caf7a25d6a43c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16040,7 +16872,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &939152532
 Transform:
@@ -16192,6 +17024,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (147)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16253,6 +17093,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (163)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16316,6 +17164,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16377,6 +17233,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16688,6 +17552,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16936,6 +17808,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (154)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16997,6 +17877,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17122,6 +18010,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17183,6 +18079,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17308,6 +18212,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (195)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17369,6 +18281,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17556,6 +18476,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17617,6 +18545,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (206)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17680,6 +18616,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17741,6 +18685,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17990,6 +18942,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18051,6 +19011,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18114,6 +19082,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18176,6 +19152,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (160)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18194,6 +19178,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 720415275}
     m_Modifications:
+    - target: {fileID: 312853447289556876, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 411275689667439110, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 571742331168623420, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1541124761403163676, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932143238725738616, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2921495531757870863, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6136417337613065477, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.31
@@ -18234,9 +19242,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6800120134653861710, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7151188588033970626, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8109175540033285279, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
       propertyPath: m_Name
       value: Barrier
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109175540033285279, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9141638044712552849, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18387,7 +19411,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1033384630
 Transform:
@@ -18476,6 +19500,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (133)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18600,6 +19632,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (161)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18786,6 +19826,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (219)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19159,6 +20207,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19220,6 +20276,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (155)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19468,6 +20532,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (183)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19779,6 +20851,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19902,6 +20982,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20089,6 +21177,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (159)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20275,6 +21371,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20336,6 +21440,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20461,6 +21573,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20547,7 +21667,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1187314783
 Transform:
@@ -20845,6 +21965,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (179)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20969,6 +22097,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21092,6 +22228,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (182)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21465,6 +22609,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21588,6 +22740,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (180)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21713,6 +22873,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21774,6 +22942,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (166)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21837,6 +23013,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (129)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21898,6 +23082,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (197)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22333,6 +23525,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (152)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22457,6 +23657,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (192)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22518,6 +23726,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (118)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22605,7 +23821,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1328878722
 Transform:
@@ -22964,6 +24180,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (142)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23087,6 +24311,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (169)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23212,6 +24444,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23335,6 +24575,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (185)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23522,6 +24770,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23671,7 +24927,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1385530795
 Transform:
@@ -23761,6 +25017,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23823,6 +25087,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (170)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23884,6 +25156,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24133,6 +25413,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24319,6 +25607,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24380,6 +25676,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (205)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24629,6 +25933,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24690,6 +26002,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24753,6 +26073,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sword_shield_gold
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 85f911cbcb836c54eb6915f56591fe9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24815,6 +26139,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24840,7 +26172,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1482316500
 Transform:
@@ -25054,6 +26386,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (227)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25178,6 +26518,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25239,6 +26587,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (214)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25426,6 +26782,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25550,6 +26914,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25673,6 +27045,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (188)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25922,6 +27302,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25984,6 +27372,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (148)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26045,6 +27441,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26294,6 +27698,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26418,6 +27830,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (216)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26541,6 +27961,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (146)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27038,6 +28466,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (162)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27099,6 +28535,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (164)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27223,6 +28667,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27720,6 +29172,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (218)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27781,6 +29241,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (208)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27905,6 +29373,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (174)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28092,6 +29568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelf WIth Bottles
       objectReference: {fileID: 0}
+    - target: {fileID: 8696864603255450999, guid: 42d99d772968d2548b65bd3118b8f239, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28153,6 +29633,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (186)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28278,6 +29766,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (112)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28339,6 +29835,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (193)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28402,6 +29906,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28464,6 +29976,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28525,6 +30045,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (114)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28712,6 +30240,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (139)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28835,6 +30371,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29021,6 +30565,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29218,6 +30770,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29467,6 +31027,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (157)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29529,6 +31097,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29554,7 +31130,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1702709916
 Transform:
@@ -29644,6 +31220,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (123)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29705,6 +31289,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (226)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29768,6 +31360,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29826,9 +31426,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3911908334755387244, guid: d7c2069d849d29f40a56bc2ffe2265ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5499281533692854313, guid: d7c2069d849d29f40a56bc2ffe2265ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5573915399879344855, guid: d7c2069d849d29f40a56bc2ffe2265ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6888564650583494580, guid: d7c2069d849d29f40a56bc2ffe2265ca, type: 3}
       propertyPath: m_Name
       value: Table 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6888564650583494580, guid: d7c2069d849d29f40a56bc2ffe2265ca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29903,6 +31519,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (153)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30090,6 +31714,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30115,7 +31747,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1741084893
 Transform:
@@ -30390,6 +32022,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (168)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30887,6 +32527,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -30949,6 +32597,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (184)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31010,6 +32666,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31196,6 +32860,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (116)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31693,6 +33365,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (165)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31754,6 +33434,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31817,6 +33505,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31879,6 +33575,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (141)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31904,7 +33608,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1826535567
 Transform:
@@ -32118,6 +33822,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32180,6 +33892,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32241,6 +33961,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (120)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32366,6 +34094,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (215)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32443,6 +34179,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 23993533c9c7e6b4992ea0d934f7ef6d, type: 3}
       propertyPath: m_Name
       value: barrel_large
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 23993533c9c7e6b4992ea0d934f7ef6d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32596,6 +34336,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32783,6 +34531,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (202)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32969,6 +34725,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (137)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33093,6 +34857,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33154,6 +34926,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a4469d2ef5f1d6143963f791f62e7d0b, type: 3}
       propertyPath: m_Name
       value: banner_triple_white
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4469d2ef5f1d6143963f791f62e7d0b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33217,6 +34993,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (140)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33279,6 +35063,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33340,6 +35132,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33465,6 +35265,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (158)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33551,7 +35359,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1943295815
 Transform:
@@ -33764,6 +35572,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33825,6 +35641,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (167)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33888,6 +35712,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (173)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33949,6 +35781,10 @@ PrefabInstance:
     - target: {fileID: 5076632558135296439, guid: 0c654cfa08fcdf640a68ad9b4c77de34, type: 3}
       propertyPath: m_Name
       value: Table 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076632558135296439, guid: 0c654cfa08fcdf640a68ad9b4c77de34, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34085,6 +35921,10 @@ PrefabInstance:
     - target: {fileID: 4603714310632033880, guid: 10540e93e149bc04c9241a57533a22d3, type: 3}
       propertyPath: m_Name
       value: Box & Barrels
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603714310632033880, guid: 10540e93e149bc04c9241a57533a22d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34334,6 +36174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: banner_white
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b373238b6ec5b9459f41e99026bbd5e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34458,6 +36302,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34519,6 +36371,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (217)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34705,6 +36565,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (145)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34954,6 +36822,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35077,6 +36953,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (132)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35264,6 +37148,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35325,6 +37217,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (134)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35449,6 +37349,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35599,7 +37507,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2047413080
 Transform:
@@ -35688,6 +37596,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35813,6 +37729,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35937,6 +37861,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35998,6 +37930,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (194)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36123,6 +38063,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36184,6 +38132,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36247,6 +38203,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36308,6 +38272,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (119)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36433,6 +38405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: banner_patternC_yellow
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 67b906d673d2daf44aa5233dea6f0521, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36494,6 +38470,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (172)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36867,6 +38851,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -37052,6 +39044,14 @@ PrefabInstance:
     - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
       propertyPath: m_Name
       value: Ceiling Tile (189)
+      objectReference: {fileID: 0}
+    - target: {fileID: 592849586135785354, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482514981516945235, guid: 32d2018c6c412c947ab28aa14f3c7320, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
