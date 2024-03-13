@@ -7,6 +7,9 @@ using Random = UnityEngine.Random;
 public class SimonGame : MiniGame
 {
     [SerializeField] private Button[] _simonButtons;
+
+    public event Action<ButtonType> IsButtonPressed;
+
     [SerializeField] private TextMeshPro _textBox;
 
     public int SequenceIndex
@@ -23,6 +26,7 @@ public class SimonGame : MiniGame
     private int _currentSequenceIndex = 0;
     private bool _canPlay = false;
     private bool _endGame = false;
+
 
     private void Start()
     {
@@ -42,7 +46,7 @@ public class SimonGame : MiniGame
         }
     }
 
-    private void OnButtonPressed(ButtonType buttonType)
+    public void OnButtonPressed(ButtonType buttonType)
     {
         Debug.Log("Button pressed: " + buttonType);
         if (!_canPlay)
@@ -74,6 +78,8 @@ public class SimonGame : MiniGame
             Debug.Log("Sequence completed");
             OnGameWon.Invoke();
         }
+
+        IsButtonPressed?.Invoke(buttonType);
     }
 
     [ContextMenu("Generate Sequence")]
@@ -118,6 +124,7 @@ public class SimonGame : MiniGame
         _textBox.text = "Game Over!";
         _sequence = Array.Empty<ButtonType>();
         _currentSequence = Array.Empty<ButtonType>();
+
         foreach (var button in _simonButtons)
         {
             button.gameObject.SetActive(false);
