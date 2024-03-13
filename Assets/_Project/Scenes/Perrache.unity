@@ -7365,6 +7365,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Simon Game
       objectReference: {fileID: 0}
+    - target: {fileID: 6284316779176670591, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284316779176670591, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_Size.y
+      value: 1.0531961
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284316779176670591, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_Size.z
+      value: 4.00279
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284316779176670591, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_Center.y
+      value: 0.47296494
+      objectReference: {fileID: 0}
+    - target: {fileID: 6284316779176670591, guid: f573c80a393b1784ebf59ae744ccd3ef, type: 3}
+      propertyPath: m_Center.z
+      value: 0.07139444
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
