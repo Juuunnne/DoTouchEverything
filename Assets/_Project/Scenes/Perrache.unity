@@ -19507,41 +19507,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 720415275}
     m_Modifications:
-    - target: {fileID: 312853447289556876, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 411275689667439110, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 571742331168623420, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 1541124761403163676, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 1932143238725738616, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 2921495531757870863, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 6136417337613065477, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.31
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 6136417337613065477, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.049999952
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6136417337613065477, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.15
+      value: -14.5
       objectReference: {fileID: 0}
     - target: {fileID: 6136417337613065477, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19571,25 +19547,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6800120134653861710, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 7151188588033970626, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 8109175540033285279, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
       propertyPath: m_Name
       value: Barrier
-      objectReference: {fileID: 0}
-    - target: {fileID: 8109175540033285279, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 9141638044712552849, guid: e0137835aff66574ebe2e74a2ee370c4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

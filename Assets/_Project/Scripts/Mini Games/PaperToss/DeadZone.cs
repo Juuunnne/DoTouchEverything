@@ -29,7 +29,7 @@ public class DeadZone : MonoBehaviour
     private IEnumerator ReplaceObject(GameObject objToReplace)
     {
         yield return new WaitForSeconds(_cooldownTime);
-        if (_deadZone.bounds.Contains(objToReplace.transform.position))
+        if (!_deadZone.bounds.Contains(objToReplace.transform.position))
         {
             yield break;
         }

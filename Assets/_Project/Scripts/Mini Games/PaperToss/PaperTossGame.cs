@@ -1,12 +1,16 @@
 using UnityEngine;
 using UnityEngine.Events;
+using TMPro;
 
 public class PaperTossGame : MiniGame
 {
     public UnityEvent<int> OnUpdateScore = new ();
 
     [SerializeField]
-    private int _maxScore = 10;
+    private int _maxScore = 3;
+
+    [SerializeField]
+    private TextMeshPro _text = null;
 
     private int _currentScore = 0;
 
@@ -22,6 +26,7 @@ public class PaperTossGame : MiniGame
         if (_currentScore >= _maxScore)
         {
             OnGameWon.Invoke();
+            _text.text = "You won!";
         }
     }
 }
