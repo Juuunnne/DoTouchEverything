@@ -8,11 +8,11 @@ public class BottleMastermindDisplay : MonoBehaviour
 
     public void OnGameWon()
     {
-        _text.text = "You won!";
+        _text.text = "Congrats, all bottles are in the right plates!";
     }
 
     public void OnGuessWrong(int correctDigits)
     {
-        _text.text = "Score:\n" + correctDigits;
+        _text.text = $"You have {correctDigits} bottles in the right plates.";
     }
 }
