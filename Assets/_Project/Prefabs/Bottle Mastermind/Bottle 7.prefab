@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1959297816395108921, guid: a76706ce8dca0d547860df89778878c3, type: 3}
       propertyPath: m_Name
-      value: Bottle (7) Variant
+      value: Bottle 7
       objectReference: {fileID: 0}
     - target: {fileID: 2165535441189479430, guid: a76706ce8dca0d547860df89778878c3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -125,10 +125,40 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ba38516fce0128b42ae64e6fa5501b38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1355471946435497790}
   m_SourcePrefab: {fileID: 100100000, guid: ba38516fce0128b42ae64e6fa5501b38, type: 3}
 --- !u!4 &4755722449198840941 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ba38516fce0128b42ae64e6fa5501b38, type: 3}
   m_PrefabInstance: {fileID: 5076965407389490054}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5383042845226084055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ba38516fce0128b42ae64e6fa5501b38, type: 3}
+  m_PrefabInstance: {fileID: 5076965407389490054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1355471946435497790
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383042845226084055}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2980525346895907822, guid: ba38516fce0128b42ae64e6fa5501b38, type: 3}
