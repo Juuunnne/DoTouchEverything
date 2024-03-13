@@ -29,7 +29,6 @@ public class SimonGame : MiniGame
         {
             button.OnButtonPressed += OnButtonPressed;
         }
-        _textBox.text = "Press to play!";
         OnGameWon.AddListener(GameOver);
     }
 
@@ -58,11 +57,11 @@ public class SimonGame : MiniGame
             else
             {
                 _textBox.text = "Wrong button!";
+                Debug.Log($"Button type:{buttonType}" + $"{_sequence[_currentSequenceIndex]}");
             }
         }
         if (_currentSequenceIndex >=  _sequenceIndex)
         {
-            _textBox.text = "Wait for the next sequence!";
             _sequenceIndex++;
             NextSequence();
             StartCoroutine(PlayCurrentSequence(_sequenceIndex));
@@ -91,6 +90,7 @@ public class SimonGame : MiniGame
     {
         yield return new WaitForSeconds(1);
         _canPlay = false;
+        _textBox.text = "Wait for the next sequence!";
         for (int i = 0; i < currentIndex; i++)
         {
             Debug.Log("Button: " + _sequence[i]);

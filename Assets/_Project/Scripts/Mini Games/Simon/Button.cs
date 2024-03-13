@@ -44,7 +44,6 @@ public class Button : MonoBehaviour
 
     public void OnButtonCollision()
     {
-        Debug.Log("Button pressed: " + buttonType);
         OnButtonPressed?.Invoke(buttonType);
         StartCoroutine(HighlightOnPressed());
     }
