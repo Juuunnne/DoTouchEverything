@@ -386,6 +386,10 @@ PrefabInstance:
       propertyPath: InitialModule.startSize.scalar
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6394466087910802034, guid: df0bb29c969bcb54babcbf79e849e334, type: 3}
+      propertyPath: _paperTossGame
+      value: 
+      objectReference: {fileID: 3456117106890927028}
     - target: {fileID: 6570352843091288613, guid: df0bb29c969bcb54babcbf79e849e334, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7
@@ -408,7 +412,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6570352843091288613, guid: df0bb29c969bcb54babcbf79e849e334, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16.64
+      value: -14.687424
       objectReference: {fileID: 0}
     - target: {fileID: 7715043617905306694, guid: df0bb29c969bcb54babcbf79e849e334, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -458,6 +462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Confetti: {fileID: 1948885052494590299}
+  _paperTossGame: {fileID: 0}
 --- !u!4 &7755127348277449429 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6570352843091288613, guid: df0bb29c969bcb54babcbf79e849e334, type: 3}
