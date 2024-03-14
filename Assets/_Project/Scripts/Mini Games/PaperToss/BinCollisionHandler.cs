@@ -7,11 +7,6 @@ public class ScoreZoneCollisionHandler : MonoBehaviour
     [SerializeField] private AudioClip _audioClip;
     [SerializeField] private AudioSource _audioSource;
 
-    void Start()
-    {
-        _audioSource = GetComponent<AudioSource>();
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("ScoreObject"))
