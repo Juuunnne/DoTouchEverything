@@ -94,6 +94,8 @@ MonoBehaviour:
   - {fileID: 4547429579149838429}
   - {fileID: 4289011445946477102}
   - {fileID: 3524722630351110310}
+  _playButton: {fileID: 0}
+  _resetButton: {fileID: 0}
   _textBox: {fileID: 5540757254846552371}
   _sequenceLength: 5
   _sequenceDelay: 1
@@ -365,7 +367,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightMaterial: {fileID: 2100000, guid: b5ec9fabee2f56742ac1b9f614cf3abf, type: 2}
   buttonType: 3
-  _buttonSound: {fileID: 0}
+  _buttonSound: {fileID: 8300000, guid: 1886d1bfc4838e542ad5804dd6a85262, type: 3}
 --- !u!1001 &1920899667312848694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -374,6 +376,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3925972436722369384}
     m_Modifications:
+    - target: {fileID: 2716760234496206699, guid: 46977453aab2e204189d713d05238a86, type: 3}
+      propertyPath: _buttonSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3fc0be983b3a46d48bddd900a6382118, type: 3}
     - target: {fileID: 3762284588392401074, guid: 46977453aab2e204189d713d05238a86, type: 3}
       propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.size
       value: 0
@@ -658,7 +664,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightMaterial: {fileID: 2100000, guid: f98d72830a83eba4eb528b9a91d1608f, type: 2}
   buttonType: 1
-  _buttonSound: {fileID: 0}
+  _buttonSound: {fileID: 8300000, guid: 8e85bc294c655af41bde0db3c5909d5e, type: 3}
 --- !u!4 &6801999181102096298 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4616165200164398447, guid: 76f3439a0ae796e4b81bee3f91f888ee, type: 3}
@@ -836,7 +842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightMaterial: {fileID: 2100000, guid: 3ed0be15dd1e2174a998c09e0dfc5104, type: 2}
   buttonType: 4
-  _buttonSound: {fileID: 0}
+  _buttonSound: {fileID: 8300000, guid: 1c1644cf9aa60bd4cb7e9c89358aa63e, type: 3}
 --- !u!1001 &3241158007648133615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1412,7 +1418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightMaterial: {fileID: 2100000, guid: dd2bb7540b543b64cb3d0b2d6fe71a89, type: 2}
   buttonType: 0
-  _buttonSound: {fileID: 0}
+  _buttonSound: {fileID: 8300000, guid: 7e0cf93248d1acc43a0570b29c53cd10, type: 3}
 --- !u!4 &2806693749853738059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4616165200164398447, guid: 76f3439a0ae796e4b81bee3f91f888ee, type: 3}
