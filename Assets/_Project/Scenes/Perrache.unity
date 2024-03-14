@@ -6744,6 +6744,10 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 6829189761706537027, guid: 6f5fe4fcdffa50f47ad1793fac6cafc7, type: 3}
+      propertyPath: _paperTossGame
+      value: 
+      objectReference: {fileID: 379641540}
     - target: {fileID: 7393477321795305927, guid: 6f5fe4fcdffa50f47ad1793fac6cafc7, type: 3}
       propertyPath: m_Height
       value: 2.3982909
