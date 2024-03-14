@@ -6745,9 +6745,9 @@ PrefabInstance:
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6829189761706537027, guid: 6f5fe4fcdffa50f47ad1793fac6cafc7, type: 3}
-      propertyPath: _paperTossGame
+      propertyPath: _audioSource
       value: 
-      objectReference: {fileID: 379641540}
+      objectReference: {fileID: 379641543}
     - target: {fileID: 7393477321795305927, guid: 6f5fe4fcdffa50f47ad1793fac6cafc7, type: 3}
       propertyPath: m_Height
       value: 2.3982909
@@ -6818,7 +6818,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d3c0a89764805024facc450b8f3cc715, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
