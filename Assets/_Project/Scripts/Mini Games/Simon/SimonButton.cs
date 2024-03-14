@@ -43,7 +43,7 @@ public class SimonButton : MonoBehaviour
     public void OnButtonCollision()
     {
         OnButtonPressed?.Invoke(buttonType);
-        if (enabled)
+        if (gameObject.activeSelf)
         {
             StartCoroutine(HighlightOnPressed());
         }
