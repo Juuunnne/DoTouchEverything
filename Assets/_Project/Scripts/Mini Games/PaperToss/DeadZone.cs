@@ -5,10 +5,6 @@ public class DeadZone : MonoBehaviour
     [SerializeField]
     private BoxCollider _respawnZone;
 
-    [Header("Variables")]
-    [SerializeField]
-    private float _cooldownTime = 5f;
-
     private void OnTriggerEnter(Collider collision)
     {
         if (collision.CompareTag("ScoreObject"))

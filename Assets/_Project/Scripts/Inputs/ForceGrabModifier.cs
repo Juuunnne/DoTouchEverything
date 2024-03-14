@@ -7,7 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ForceGrabModifier : MonoBehaviour
 {
-    XRRayInteractor _interactor; 
+    XRRayInteractor _interactor;
     InputActionProperty _grabbedObjectTranslateAnchorAction;
 
     [SerializeField] ActionBasedController _controller;
@@ -15,9 +15,11 @@ public class ForceGrabModifier : MonoBehaviour
 
     private void Start()
     {
-        _interactor = GetComponent<XRRayInteractor>();
-        _interactor.selectEntered.AddListener(OnObjectGrab);
-        _interactor.selectExited.AddListener(OnObjectRelease);
+        if (TryGetComponent(out _interactor))
+        {
+            _interactor.selectEntered.AddListener(OnObjectGrab);
+            _interactor.selectExited.AddListener(OnObjectRelease);
+        }
     }
 
     private void OnDestroy()
@@ -31,6 +33,9 @@ public class ForceGrabModifier : MonoBehaviour
 
     void OnObjectGrab(SelectEnterEventArgs a)
     {
+        if (a == null || a.interactableObject == null)
+            return;
+
         if (a.interactableObject.transform.TryGetComponent(out RayAttachModifier _))
         {
             _grabbedObjectTranslateAnchorAction = _controller.translateAnchorAction;
@@ -40,6 +45,9 @@ public class ForceGrabModifier : MonoBehaviour
 
     void OnObjectRelease(SelectExitEventArgs a)
     {
+        if (a == null || a.interactableObject == null)
+            return;
+
         if (a.interactableObject.transform.TryGetComponent(out RayAttachModifier _))
         {
             _controller.translateAnchorAction = _grabbedObjectTranslateAnchorAction;
