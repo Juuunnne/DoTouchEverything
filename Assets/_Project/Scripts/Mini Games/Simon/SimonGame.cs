@@ -22,6 +22,8 @@ public class SimonGame : MiniGame
     private int _currentSequenceIndex = 0;
     private bool _canPressButtons = false;
 
+    private readonly float[] _buttonsCooldown = new float[5] { 0, 0, 0, 0, 0 };
+
     private void OnEnable()
     {
         foreach (SimonButton button in _simonButtons)
@@ -40,10 +42,13 @@ public class SimonGame : MiniGame
 
     public void OnButtonPressed(ButtonType buttonType)
     {
-        if (!_canPressButtons)
+        if (!_canPressButtons || _buttonsCooldown[(int)buttonType] > Time.time)
         {
             return;
         }
+
+        _buttonsCooldown[(int)buttonType] = Time.time + 0.5f;
+
 
         if (_currentSequenceIndex < _sequenceIndex && buttonType != _sequence[_currentSequenceIndex])
         {
@@ -91,6 +96,7 @@ public class SimonGame : MiniGame
     {
         _textBox.text = $"{_sequenceIndex}/{_sequenceLength}\nRemember the sequence!";
         _canPressButtons = false;
+        yield return new WaitForSeconds(_sequenceDelay);
         for (int i = 0; i < currentIndex; i++)
         {
             yield return new WaitForSeconds(_sequenceDelay / 2);

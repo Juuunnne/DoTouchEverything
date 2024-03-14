@@ -176,6 +176,8 @@ ShaderVariantCollection:
         passType: 13
       - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS _OCCLUSIONMAP
         passType: 13
+      - keywords: _EMISSION
+        passType: 13
   - first: {fileID: 4800000, guid: 5e723135b0fd1e34ba403dc074c61877, type: 3}
     second:
       variants:
