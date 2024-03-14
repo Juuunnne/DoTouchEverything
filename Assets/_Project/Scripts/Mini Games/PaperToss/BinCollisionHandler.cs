@@ -3,7 +3,10 @@ using UnityEngine;
 public class ScoreZoneCollisionHandler : MonoBehaviour
 {
     [SerializeField] private ParticleSystem Confetti;
-    [SerializeField] private PaperTossGame _paperTossGame;
+
+    private PaperTossGame _paperTossGame;
+    private AudioSource _audioSource;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("ScoreObject"))
@@ -11,6 +14,7 @@ public class ScoreZoneCollisionHandler : MonoBehaviour
             _paperTossGame.IncrementScore();
             Destroy(other.gameObject);
             Confetti.Play();
+            _audioSource.Play();
         }
     }
 }

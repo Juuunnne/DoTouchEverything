@@ -23,10 +23,6 @@ public class SimonAudio : MonoBehaviour
             simonGame.SequenceWin += PlayWinSequenceSound;
             simonGame.OnGameLost += PlayGameLostSound;
         }
-        else
-        {
-            Debug.LogError("SimonGame n'a pas été trouvé ou n'a pas été correctement assigné.");
-        }
     }
     private void PlaySound(ButtonType buttonType)
     {

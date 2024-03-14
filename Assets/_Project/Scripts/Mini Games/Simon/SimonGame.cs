@@ -64,13 +64,12 @@ public class SimonGame : MiniGame
         else if (_currentSequenceIndex >=  _sequenceIndex)
         {
             _textBox.text = "Wait for the next sequence!";
-            //TODO: Play a sound when going to next sequence or when the player press the wrong button //Feedback
+            IsButtonPressed?.Invoke(buttonType);
             StartCoroutine(Waiting(0.5f));
             _endGame = ++_sequenceIndex >= _sequence.Length;
             NextSequence();
             StartCoroutine(PlayCurrentSequence(_sequenceIndex));
-        }
-        IsButtonPressed?.Invoke(buttonType);
+        }   
     }
 
     [ContextMenu("Generate Sequence")]
