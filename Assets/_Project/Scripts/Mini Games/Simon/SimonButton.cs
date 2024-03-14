@@ -12,12 +12,11 @@ public enum ButtonType : int
     ButtonCenter
 }
 
-public class Button : MonoBehaviour
+public class SimonButton : MonoBehaviour
 {
     [SerializeField] private Material _highlightMaterial;
-    
-    [Header("Button Type")]
-    public ButtonType buttonType;
+    [SerializeField] private ButtonType buttonType;
+    [SerializeField] private AudioClip _buttonSound;
     public Action<ButtonType> OnButtonPressed;
     
     public void HighlightButton(bool enable)
@@ -46,6 +45,10 @@ public class Button : MonoBehaviour
     {
         OnButtonPressed?.Invoke(buttonType);
         StartCoroutine(HighlightOnPressed());
+        if (_buttonSound != null)
+        {
+            AudioSource.PlayClipAtPoint(_buttonSound, transform.position);
+        }
     }
 
 }

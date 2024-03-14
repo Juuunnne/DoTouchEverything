@@ -95,8 +95,11 @@ MonoBehaviour:
   - {fileID: 4289011445946477102}
   - {fileID: 3524722630351110310}
   _textBox: {fileID: 5540757254846552371}
-  SequenceLength: 10
-  SequenceDelay: 1
+  _sequenceLength: 5
+  _sequenceDelay: 1
+  OnSequenceFailed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1646774646599931254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -354,6 +357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightMaterial: {fileID: 2100000, guid: b5ec9fabee2f56742ac1b9f614cf3abf, type: 2}
   buttonType: 3
+  _buttonSound: {fileID: 0}
 --- !u!1001 &1920899667312848694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -646,6 +650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightMaterial: {fileID: 2100000, guid: f98d72830a83eba4eb528b9a91d1608f, type: 2}
   buttonType: 1
+  _buttonSound: {fileID: 0}
 --- !u!4 &6801999181102096298 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4616165200164398447, guid: 76f3439a0ae796e4b81bee3f91f888ee, type: 3}
@@ -823,6 +828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightMaterial: {fileID: 2100000, guid: 3ed0be15dd1e2174a998c09e0dfc5104, type: 2}
   buttonType: 4
+  _buttonSound: {fileID: 0}
 --- !u!1001 &3241158007648133615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1398,6 +1404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _highlightMaterial: {fileID: 2100000, guid: dd2bb7540b543b64cb3d0b2d6fe71a89, type: 2}
   buttonType: 0
+  _buttonSound: {fileID: 0}
 --- !u!4 &2806693749853738059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4616165200164398447, guid: 76f3439a0ae796e4b81bee3f91f888ee, type: 3}
