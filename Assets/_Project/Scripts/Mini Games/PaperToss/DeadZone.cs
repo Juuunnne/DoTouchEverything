@@ -1,7 +1,5 @@
-using System.Collections;
 using UnityEngine;
 
-[RequireComponent(typeof(BoxCollider))]
 public class DeadZone : MonoBehaviour
 {
     [SerializeField]
@@ -10,13 +8,6 @@ public class DeadZone : MonoBehaviour
     [Header("Variables")]
     [SerializeField]
     private float _cooldownTime = 5f;
-
-    private BoxCollider _deadZone;
-
-    private void Start()
-    {
-        _deadZone = GetComponent<BoxCollider>();
-    }
 
     private void OnTriggerEnter(Collider collision)
     {
