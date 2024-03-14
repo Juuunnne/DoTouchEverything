@@ -32,10 +32,6 @@ public class BottleMastermindGame : MiniGame
             if (_sockets[i].IsDigitCorrect)
             {
                 correctDigits++;
-                if (correctDigits <= _sockets.Length/2)
-                {
-                    break;
-                }
             }
         }
 
