@@ -54,7 +54,9 @@ PrefabInstance:
         can also move with the left joystick (not recommended)
 
         To grab items,
-        you can use the grip!'
+        you can use the grip.
+
+        You need to finish the 3 mini games.'
       objectReference: {fileID: 0}
     - target: {fileID: 6502702588079197253, guid: f24aeeec73005b14b9ccdbb97cc39f9e, type: 3}
       propertyPath: m_fontSize
