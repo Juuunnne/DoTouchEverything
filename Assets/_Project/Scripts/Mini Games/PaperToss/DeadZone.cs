@@ -9,6 +9,7 @@ public class DeadZone : MonoBehaviour
     {
         if (collision.CompareTag("ScoreObject"))
         {
+            collision.attachedRigidbody.velocity = Vector3.zero;
             collision.transform.position = new Vector3(
                 Random.Range(_respawnZone.bounds.min.x, _respawnZone.bounds.max.x),
                 Random.Range(_respawnZone.bounds.min.y, _respawnZone.bounds.max.y),
