@@ -117,6 +117,14 @@ PrefabInstance:
       value: Press the button to start the party!
       objectReference: {fileID: 0}
     - target: {fileID: 6502702588079197253, guid: f24aeeec73005b14b9ccdbb97cc39f9e, type: 3}
+      propertyPath: m_fontSize
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502702588079197253, guid: f24aeeec73005b14b9ccdbb97cc39f9e, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502702588079197253, guid: f24aeeec73005b14b9ccdbb97cc39f9e, type: 3}
       propertyPath: m_VerticalAlignment
       value: 512
       objectReference: {fileID: 0}

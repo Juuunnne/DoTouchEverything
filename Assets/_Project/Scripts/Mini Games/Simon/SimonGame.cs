@@ -8,6 +8,8 @@ using Random = UnityEngine.Random;
 public class SimonGame : MiniGame
 {
     [SerializeField] private SimonButton[] _simonButtons;
+    [SerializeField] private GameObject _playButton;
+    [SerializeField] private GameObject _resetButton;
     [SerializeField] private TextMeshPro _textBox;
 
     [SerializeField] private int _sequenceLength = 5;
@@ -52,6 +54,8 @@ public class SimonGame : MiniGame
             else
             {
                 OnSequenceFailed?.Invoke();
+                _textBox.text = "You failed!";
+                GameOver();
             }
         }
 
@@ -62,6 +66,8 @@ public class SimonGame : MiniGame
             if (_sequenceIndex >= _sequence.Length)
             {
                 OnGameWon?.Invoke();
+                _textBox.text = "You won!";
+                GameOver();
             }
             else
             {
@@ -106,8 +112,9 @@ public class SimonGame : MiniGame
         {
             button.gameObject.SetActive(true);
         }
-        GenerateSequence();
-        StartCoroutine(PlayCurrentSequence(_sequenceIndex));
+        _playButton.SetActive(false);
+        _resetButton.SetActive(true);
+        ResetGame();
     }
 
     [ContextMenu("Reset Game")]
@@ -115,6 +122,18 @@ public class SimonGame : MiniGame
     {
         _textBox.text = "Game Reset!";
         GenerateSequence();
+        StartCoroutine(PlayCurrentSequence(_sequenceIndex));
+    }
+
+    [ContextMenu("End Game")]
+    private void GameOver()
+    {
+        foreach (var button in _simonButtons)
+        {
+            button.gameObject.SetActive(false);
+        }
+        _playButton.SetActive(true);
+        _resetButton.SetActive(false);
     }
 
 #if UNITY_EDITOR
