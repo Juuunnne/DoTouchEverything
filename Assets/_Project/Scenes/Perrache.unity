@@ -40808,32 +40808,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2011912948855194632, guid: 38054cde632767d4d83b2ff36dbc4513, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4673902761239901378, guid: 38054cde632767d4d83b2ff36dbc4513, type: 3}
-      propertyPath: m_text
-      value: 'Welcome!
-
-        You can teleport with the right joystick.
-
-        You
-        can also move with the left joystick (not recommended).
-
-        To grab
-        items, you can use the grip.
-
-        You need to finish the game, complete
-        3 mini games placed in the tavern.'
-      objectReference: {fileID: 0}
     - target: {fileID: 4755912210968899642, guid: 38054cde632767d4d83b2ff36dbc4513, type: 3}
       propertyPath: m_Name
       value: Tutorial
-      objectReference: {fileID: 0}
-    - target: {fileID: 7628683114280292839, guid: 38054cde632767d4d83b2ff36dbc4513, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
