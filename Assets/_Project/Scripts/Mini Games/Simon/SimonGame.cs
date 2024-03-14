@@ -11,7 +11,11 @@ public class SimonGame : MiniGame
 
     public int SequenceLength;
     public float SequenceDelay = 1.0f;
+
     public event Action<ButtonType> IsButtonPressed;
+    public event Action OnGameLost;
+    public event Action OnGameStarted;
+    public event Action SequenceWin;
 
     private ButtonType[] _sequence;
     private ButtonType[] _currentSequence;
@@ -102,7 +106,7 @@ public class SimonGame : MiniGame
         _textBox.text = $"{_sequenceIndex}/{SequenceLength}";
         if (_endGame)
         {
-            OnGameWon.Invoke();
+            OnGameWon?.Invoke();
         }
     }
 
@@ -115,6 +119,7 @@ public class SimonGame : MiniGame
         }
         GenerateSequence();
         StartCoroutine(PlayCurrentSequence(_sequenceIndex));
+        OnGameStarted?.Invoke();
     }
 
     private void GameOver()
@@ -127,6 +132,7 @@ public class SimonGame : MiniGame
         {
             button.gameObject.SetActive(false);
         }
+        OnGameLost?.Invoke();
     }
 
     public void ResetGame()
