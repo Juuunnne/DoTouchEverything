@@ -16,9 +16,8 @@ public class SimonButton : MonoBehaviour
 {
     [SerializeField] private Material _highlightMaterial;
     [SerializeField] private ButtonType buttonType;
-    [SerializeField] private AudioClip _buttonSound;
     public Action<ButtonType> OnButtonPressed;
-    
+
     public void HighlightButton(bool enable)
     {
         if (_highlightMaterial != null)
@@ -33,7 +32,7 @@ public class SimonButton : MonoBehaviour
             }
         }
     }
-   
+
     private IEnumerator HighlightOnPressed()
     {
         HighlightButton(true);
@@ -44,11 +43,9 @@ public class SimonButton : MonoBehaviour
     public void OnButtonCollision()
     {
         OnButtonPressed?.Invoke(buttonType);
-        StartCoroutine(HighlightOnPressed());
-        if (_buttonSound != null)
+        if (enabled)
         {
-            AudioSource.PlayClipAtPoint(_buttonSound, transform.position);
+            StartCoroutine(HighlightOnPressed());
         }
     }
-
 }

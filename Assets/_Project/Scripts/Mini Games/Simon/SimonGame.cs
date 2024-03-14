@@ -45,36 +45,33 @@ public class SimonGame : MiniGame
             return;
         }
 
-        if (_currentSequenceIndex < _sequenceIndex)
+        if (_currentSequenceIndex < _sequenceIndex && buttonType != _sequence[_currentSequenceIndex])
         {
-            if (buttonType == _sequence[_currentSequenceIndex])
+            OnSequenceFailed?.Invoke();
+            _textBox.text = "You failed!";
+            GameOver();
+        }
+        else
+        {
+            _currentSequenceIndex++;
+
+            if (_currentSequenceIndex >= _sequenceIndex)
             {
-                _currentSequenceIndex++;
-            }
-            else
-            {
-                OnSequenceFailed?.Invoke();
-                _textBox.text = "You failed!";
-                GameOver();
+                if (_sequenceIndex >= _sequence.Length)
+                {
+                    OnGameWon?.Invoke();
+                    _textBox.text = "You won!";
+                    GameOver();
+                }
+                else
+                {
+                    _sequenceIndex++;
+                    _currentSequenceIndex = 0;
+                    StartCoroutine(PlayCurrentSequence(_sequenceIndex));
+                }
             }
         }
 
-        // Has the player ended the sequence?
-        if (_currentSequenceIndex >= _sequenceIndex)
-        {
-            _sequenceIndex++;
-            if (_sequenceIndex >= _sequence.Length)
-            {
-                OnGameWon?.Invoke();
-                _textBox.text = "You won!";
-                GameOver();
-            }
-            else
-            {
-                StartCoroutine(PlayCurrentSequence(_sequenceIndex));
-                _currentSequenceIndex = 0;
-            }
-        }
     }
 
     private void GenerateSequence()
@@ -92,7 +89,7 @@ public class SimonGame : MiniGame
 
     private IEnumerator PlayCurrentSequence(int currentIndex)
     {
-        _textBox.text = $"Your current streak:\n{_sequenceIndex - 1}/{_sequenceLength}\nRemember the sequence!";
+        _textBox.text = $"{_sequenceIndex}/{_sequenceLength}\nRemember the sequence!";
         _canPressButtons = false;
         for (int i = 0; i < currentIndex; i++)
         {
@@ -102,7 +99,7 @@ public class SimonGame : MiniGame
             _simonButtons[(int)_sequence[i]].HighlightButton(false);
         }
         _canPressButtons = true;
-        _textBox.text = $"Your current streak:\n{_sequenceIndex - 1}/{_sequenceLength}\nNow it's your turn!";
+        _textBox.text = $"{_sequenceIndex}/{_sequenceLength}\nNow it's your turn!";
     }
 
     [ContextMenu("Start Game")]
