@@ -6,10 +6,6 @@ public class BottleMastermindGame : MiniGame
     [Tooltip("Event invoked when the player makes a wrong guess. The parameter is the number of correct digits in the guess.")]
     public UnityEvent<int> OnGuessWrong = new();
 
-    private AudioSource audioSource;
-    public UnityEvent<int> PlaySound = new();
-    public AudioClip[] sounds;
-
     [SerializeField]
     private BottleSocket[] _sockets = new BottleSocket[0];
 
@@ -26,8 +22,6 @@ public class BottleMastermindGame : MiniGame
         {
             _sockets[i].WantedBottleDigit = code[i];
         }
-
-        audioSource = transform.GetComponentInChildren<AudioSource>();
     }
 
     public void CheckGuess()

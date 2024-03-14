@@ -12849,6 +12849,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 22347828}
     m_Modifications:
+    - target: {fileID: 146676207171969231, guid: 91ec293e2cce44e43a32cc1b8d8bdd23, type: 3}
+      propertyPath: sounds.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 146676207171969231, guid: 91ec293e2cce44e43a32cc1b8d8bdd23, type: 3}
+      propertyPath: sounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: ef7325878c7ff7d4fa4729c7b7943452, type: 3}
+    - target: {fileID: 146676207171969231, guid: 91ec293e2cce44e43a32cc1b8d8bdd23, type: 3}
+      propertyPath: sounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 83df9e783bdc8ff4baffb52e4063b5cc, type: 3}
     - target: {fileID: 293879046079337630, guid: 91ec293e2cce44e43a32cc1b8d8bdd23, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.058
@@ -12901,6 +12913,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8939874104024053878, guid: 91ec293e2cce44e43a32cc1b8d8bdd23, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939874104024053878, guid: 91ec293e2cce44e43a32cc1b8d8bdd23, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939874104024053878, guid: 91ec293e2cce44e43a32cc1b8d8bdd23, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 706717696}
+    - target: {fileID: 8939874104024053878, guid: 91ec293e2cce44e43a32cc1b8d8bdd23, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939874104024053878, guid: 91ec293e2cce44e43a32cc1b8d8bdd23, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BottleMastermindGame, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12914,7 +12946,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 146676207171969231, guid: 91ec293e2cce44e43a32cc1b8d8bdd23, type: 3}
   m_PrefabInstance: {fileID: 706717693}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 706717696}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d6aca91df3fb39846a8ca1f1955986af, type: 3}
@@ -12923,6 +12955,11 @@ MonoBehaviour:
 --- !u!4 &706717695 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5240067215943211859, guid: 91ec293e2cce44e43a32cc1b8d8bdd23, type: 3}
+  m_PrefabInstance: {fileID: 706717693}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &706717696 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 388794460973332306, guid: 91ec293e2cce44e43a32cc1b8d8bdd23, type: 3}
   m_PrefabInstance: {fileID: 706717693}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &707506349
