@@ -7,18 +7,11 @@ using Random = UnityEngine.Random;
 public class SimonGame : MiniGame
 {
     [SerializeField] private Button[] _simonButtons;
-
-    public event Action<ButtonType> IsButtonPressed;
-
     [SerializeField] private TextMeshPro _textBox;
 
-    public int SequenceIndex
-    {
-        get => _sequenceIndex;
-        set => _sequenceIndex = value > _sequence.Length ? _sequence.Length - 1 : value;
-    }
-    public int SequenceLength = 10;
+    public int SequenceLength;
     public float SequenceDelay = 1.0f;
+    public event Action<ButtonType> IsButtonPressed;
 
     private ButtonType[] _sequence;
     private ButtonType[] _currentSequence;
@@ -26,7 +19,6 @@ public class SimonGame : MiniGame
     private int _currentSequenceIndex = 0;
     private bool _canPlay = false;
     private bool _endGame = false;
-
 
     private void Start()
     {
@@ -68,17 +60,12 @@ public class SimonGame : MiniGame
         else if (_currentSequenceIndex >=  _sequenceIndex)
         {
             _textBox.text = "Wait for the next sequence!";
+            //TODO: Play a sound when going to next sequence or when the player press the wrong button //Feedback
+            StartCoroutine(Waiting(0.5f));
             _endGame = ++_sequenceIndex >= _sequence.Length;
             NextSequence();
             StartCoroutine(PlayCurrentSequence(_sequenceIndex));
         }
-
-        if (_sequence.Length == 0)
-        {
-            Debug.Log("Sequence completed");
-            OnGameWon.Invoke();
-        }
-
         IsButtonPressed?.Invoke(buttonType);
     }
 
@@ -97,13 +84,13 @@ public class SimonGame : MiniGame
 
     private IEnumerator PlayCurrentSequence(int currentIndex)
     {
-        yield return new WaitForSeconds(1);
+        yield return Waiting(SequenceDelay);
         _canPlay = false;
         for (int i = 0; i < currentIndex; i++)
         {
             Debug.Log("Button: " + _sequence[i]);
             _simonButtons[(int)_sequence[i]].HighlightButton(true);
-            yield return new WaitForSeconds(SequenceDelay);
+            yield return Waiting(SequenceDelay);
             _simonButtons[(int)_sequence[i]].HighlightButton(false);
         }
         _canPlay = true;
@@ -111,12 +98,23 @@ public class SimonGame : MiniGame
 
     private void NextSequence()
     {
-        if (_sequence.Length == 0)
+        _currentSequenceIndex = 0;
+        _textBox.text = $"{_sequenceIndex}/{SequenceLength}";
+        if (_endGame)
         {
-            Debug.Log("Sequence completed");
             OnGameWon.Invoke();
         }
-        _textBox.text = $"{_sequenceIndex}/{SequenceLength}";
+    }
+
+    public void StartGame()
+    {//TODO: Play a sound when the game starts //Feedback
+        _textBox.text = "Start!";
+        foreach (var button in _simonButtons)
+        {
+            button.gameObject.SetActive(true);
+        }
+        GenerateSequence();
+        StartCoroutine(PlayCurrentSequence(_sequenceIndex));
     }
 
     private void GameOver()
@@ -131,14 +129,15 @@ public class SimonGame : MiniGame
         }
     }
 
-    public void StartGame()
+    public void ResetGame()
     {
-        _textBox.text = "Start!";
-        foreach (var button in _simonButtons)
-        {
-            button.gameObject.SetActive(true);
-        }
+        _textBox.text = "Regenerating sequence!";
+        StartCoroutine(Waiting(0.5f));
         GenerateSequence();
-        StartCoroutine(PlayCurrentSequence(_sequenceIndex));
+    }
+
+    private IEnumerator Waiting(float time)
+    {
+        yield return new WaitForSeconds(time);
     }
 }
