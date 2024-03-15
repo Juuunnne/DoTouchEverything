@@ -164,8 +164,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 5.4455986, y: 0.21477425, z: 18.638947}
-  m_Center: {x: -0.2465601, y: 0, z: 3.871067}
+  m_Size: {x: 5.4455986, y: 0.21477425, z: 1.9145126}
+  m_Center: {x: -0.2465601, y: 0, z: -4.8575916}
 --- !u!1 &2719196140773640845
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,7 +417,7 @@ Transform:
   m_GameObject: {fileID: 8169104061473996339}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 11.89}
+  m_LocalPosition: {x: 0, y: 0.02, z: 11.89}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -442,8 +442,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 5.3714333, y: 2.177343, z: 1}
-  m_Center: {x: 1.2306156, y: 1.06, z: 0}
+  m_Size: {x: 5.3714333, y: 3.8850951, z: 17.37}
+  m_Center: {x: 1.2306156, y: 1.913876, z: 5.4021425}
 --- !u!114 &7558680303303134848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2349,6 +2349,14 @@ PrefabInstance:
       value: You Won!!
       objectReference: {fileID: 0}
     - target: {fileID: 6502702588079197253, guid: f24aeeec73005b14b9ccdbb97cc39f9e, type: 3}
+      propertyPath: m_fontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502702588079197253, guid: f24aeeec73005b14b9ccdbb97cc39f9e, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6502702588079197253, guid: f24aeeec73005b14b9ccdbb97cc39f9e, type: 3}
       propertyPath: m_VerticalAlignment
       value: 512
       objectReference: {fileID: 0}
@@ -2370,11 +2378,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8303989683619113312, guid: f24aeeec73005b14b9ccdbb97cc39f9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.487
+      value: 0.79
       objectReference: {fileID: 0}
     - target: {fileID: 8303989683619113312, guid: f24aeeec73005b14b9ccdbb97cc39f9e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.93
+      value: 25.88
       objectReference: {fileID: 0}
     - target: {fileID: 8303989683619113312, guid: f24aeeec73005b14b9ccdbb97cc39f9e, type: 3}
       propertyPath: m_LocalRotation.w
